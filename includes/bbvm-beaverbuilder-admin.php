@@ -83,11 +83,22 @@ class BBVapor_BeaverBuilder_Admin {
 			check_admin_referer( 'save_bbvm_beaver_builder_options' );
 			delete_option( 'bbvm-modules-instagram' );
 		}
+		if( isset( $_POST['clear-cache-instagram'] ) ) {
+			check_admin_referer( 'save_bbvm_beaver_builder_options' );
+			$options = get_option( 'bbvm-modules-instagram' );
+			if ( isset( $options[ 'last_cached' ] ) ) {
+				unset( $options[ 'last_cached' ] );
+				update_option( 'bbvm-modules-instagram', $options );
+			}
+			?>
+			<div class="notice notice-success"><p><?php esc_html_e( 'Cache cleared!', 'bb-vapor-modules' ); ?></p></div>
+			<?php
+		}
 		?>
 		<div class="wrap">
 			<form action="<?php echo esc_url( add_query_arg( array( 'page' => 'bb-vapor-modules' ), admin_url( 'options-general.php' ) ) ); ?>" method="POST">
 				<?php wp_nonce_field('save_bbvm_beaver_builder_options'); ?>
-				<h2><?php esc_html_e( 'Vapor for Beaver Builder', 'breadcrumbs-for-beaver-builder' ); ?></h2>
+				<h2><?php esc_html_e( 'Vapor Modules for Beaver Builder', 'breadcrumbs-for-beaver-builder' ); ?></h2>
 				<table class="form-table">
 					<tbody>
 						<tr>
@@ -108,7 +119,7 @@ class BBVapor_BeaverBuilder_Admin {
 								$siteRedirectLink = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" . '?hash=' . sanitize_text_field( $instagram['hash'] );
 
 								$state = base64_encode( $siteRedirectLink );
-								$redirect_url = 'https://bbvm.com/instagram/index.php';
+								$redirect_url = 'https://mediaron.com/instagram/index.php';
 								$instagram_url = sprintf( 'https://api.instagram.com/oauth/authorize/?client_id=%s&redirect_uri=%s&state=%s&response_type=code', '8dba23ca2c1c45509c32343db0d37a96', $redirect_url, $state );
 								?>
 								<a class="button button-primary" href="<?php echo esc_url_raw( $instagram_url ); ?>"><?php _e( 'Connect to Instagram', 'bb-vapor-modules' ); ?></a>
@@ -123,20 +134,22 @@ class BBVapor_BeaverBuilder_Admin {
 								) );
 								?>
 								<div class="instagram-status">
-								<button class="button button-primary"><?php _e( 'Connected', 'bb-vapor-modules' ); ?></button>&nbsp;<input type="submit" class="button button-secondary" value="<?php echo esc_html__( 'Disconnect', 'bb-vapor-modules' ); ?>" name="disconnect-instagram" />
+								<button class="button button-primary"><?php _e( 'Connected', 'bb-vapor-modules' ); ?></button>&nbsp;<input type="submit" class="button button-secondary delete" value="<?php echo esc_html__( 'Disconnect', 'bb-vapor-modules' ); ?>" name="disconnect-instagram" />&nbsp;<input type="submit" class="button button-secondary" value="<?php echo esc_html__( 'Clear Cache', 'bb-vapor-modules' ); ?>" name="clear-cache-instagram" />
 								</div>
 								<?php
 							}
 							?>
 							</td>
 						</tr>
-						<tr><td colspan="2"><div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-						</td>
+						<tr>
+							<th scope="row"><label for="bbvm-pro"><?php esc_html_e( 'Upgrade', 'bb-vapor-modules' ); ?></label>
+							</th>
+							<td>
+								<a class="button button-secondary" href="https://bbvapormodules.com" target="_blank"><?php esc_html_e( 'Upgrade to Pro for more modules', 'bb-vapor-modules' ); ?></a>
+							</td>
 						</tr>
 					</tbody>
 				</table>
-
-				<?php submit_button( __( 'Save Options', 'bb-vapor-modules' ) ); ?>
 			</form>
 		</div>
 		<?php
