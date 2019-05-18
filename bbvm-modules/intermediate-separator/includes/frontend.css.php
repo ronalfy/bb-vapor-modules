@@ -77,7 +77,7 @@ if( 'full_width' == $settings->style ) {
 if( 'double' == $settings->style ) {
 	?>
 	.fl-node-<?php echo $id; ?> hr.fl-bbvm-intermediate-separator {
-		height: <?php echo $settings->separator_height; ?>px;
+		height: auto;
 		width: 100%;
 	}
 	.fl-node-<?php echo $id; ?> hr.fl-bbvm-intermediate-separator::before {
