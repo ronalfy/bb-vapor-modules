@@ -9,7 +9,7 @@
 	<?php
 	if( 'rounded' === $settings->icon_appearance ):
 	?>
-	border-radius: 100%;
+	border-radius: 50%;
 	<?php
 	endif;
 	?>
@@ -242,7 +242,7 @@ endif;
 FLBuilderCSS::typography_field_rule( array(
 	'settings'	=> $settings,
 	'setting_name' 	=> 'readmore_text_typography',
-	'selector' 	=> ".fl-node-$id .fl-bbvm-card-readmore"
+	'selector' 	=> ".fl-node-$id .fl-bbvm-card-readmore, .fl-node-$id .fl-bbvm-card-readmore a"
 ) );
 FLBuilderCSS::dimension_field_rule( array(
 	'settings'	=> $settings,
