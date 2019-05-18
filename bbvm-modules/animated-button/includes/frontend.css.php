@@ -26,7 +26,6 @@ if( 6 === strlen( $animation_type_background_color ) ) {
   }
 <?php
 $background_color = $background_color_hover = false;
-$background_type = $settings->button_background_type;
 $background_color = isset( $settings->button_background_color ) ? esc_attr( $settings->button_background_color ) : 'FFFFFF';
 if( 6 === strlen( $background_color ) ) {
 	$background_color = '#' . $background_color;
