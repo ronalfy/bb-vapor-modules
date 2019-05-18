@@ -12,7 +12,7 @@
  * Domain Path: /languages
  */
 define( 'BBVAPOR_PLUGIN_FREE', true );
-define( 'BBVAPOR_PLUGIN_NAME', 'BBVapor Modules' );
+define( 'BBVAPOR_PLUGIN_NAME', 'BB Vapor Modules' );
 define( 'BBVAPOR_BEAVER_BUILDER_DIR', plugin_dir_path( __FILE__ ) );
 define( 'BBVAPOR_BEAVER_BUILDER_URL', plugins_url( '/', __FILE__ ) );
 define( 'BBVAPOR_BEAVER_BUILDER_VERSION', '1.0.0' );
