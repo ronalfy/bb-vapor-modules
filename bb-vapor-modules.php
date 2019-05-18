@@ -5,7 +5,7 @@
  * Description: A selection of modules for Beaver Builder.
  * Version: 1.0.0
  * Author: Ronald Huereca
- * Author URI: https://bbvapormodules.com
+ * Author URI: https://mediaron.com
  * Requires at least: 5.0
  * Contributors: ronalfy
  * Text Domain: bb-vapor-modules
