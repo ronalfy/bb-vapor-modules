@@ -1,0 +1,5619 @@
+# Copyright (C) 2019 Ronald Huereca
+# This file is distributed under the same license as the MediaRon Beaver Builder Modules plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: MediaRon Beaver Builder Modules 1.9.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bb-vapor-modules\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-05-05T23:59:22+00:00\n"
+"PO-Revision-Date: 2019-05-05T23:59:22+00:00\n"
+"X-Generator: WP-CLI 2.0.1\n"
+"X-Domain: bb-vapor-modules\n"
+
+#. Plugin Name of the plugin
+msgid "MediaRon Beaver Builder Modules"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://bbvm.com/bb-modules"
+msgstr ""
+
+#. Description of the plugin
+msgid "A selection of modules for Beaver Builder."
+msgstr ""
+
+#. Author of the plugin
+msgid "Ronald Huereca"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://bbvm.com"
+msgstr ""
+
+#: bb-vapor-modules.php:238
+#: bbvm-modules/copyright/copyright-module.php:6
+#: bbvm-modules/copyright/copyright-module.php:32
+#: bbvm-modules/copyright/copyright-module.php:42
+#: bbvm-modules/woocommerce-add-to-cart/woocommerce-add-to-cart.php:26
+msgid "Copyright"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:6
+msgid "Blockquote"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:7
+msgid "Add a Blockquote"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:8
+#: bbvm-modules/postselect/post-select-module.php:8
+#: bbvm-modules/card/card-module.php:8
+#: bbvm-modules/testimonials/testimonials-module.php:8
+#: bbvm-modules/beforeafter/beforeafter-module.php:8
+#: bbvm-modules/social-media-icons/social-media-module.php:8
+#: bbvm-modules/faq/faq-module.php:8
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:8
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:8
+#: bbvm-modules/gravatar/gravatar-module.php:8
+#: bbvm-modules/card-group/card-group-module.php:8
+#: bbvm-modules/alerts/alerts-module.php:8
+#: bbvm-modules/button/mrbb-button.php:8
+#: bbvm-modules/unordered-list/unordered-list-module.php:8
+#: bbvm-modules/animated-button/mrbb-animated-button.php:8
+#: bbvm-modules/syntax-highlighter-native/syntax-highlighter-native-module.php:8
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:8
+#: bbvm-modules/copyright/copyright-module.php:8
+#: bbvm-modules/gist/gist-module.php:8
+#: bbvm-modules/instagram/instagram-module.php:8
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:8
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:8
+#: bbvm-modules/button-group/button-module.php:8
+msgid "Base"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:23
+#: bbvm-modules/blockquotes/blockquotes-module.php:26
+#: bbvm-modules/testimonials/testimonials-module.php:102
+#: bbvm-modules/testimonials/testimonials-module.php:105
+#: bbvm-modules/gravatar/gravatar-module.php:23
+#: bbvm-modules/gravatar/gravatar-module.php:26
+#: bbvm-modules/unordered-list/unordered-list-module.php:44
+#: bbvm-modules/unordered-list/unordered-list-module.php:47
+msgid "Settings"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:30
+msgid "Blockquote Text"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:35
+msgid "Blockquote Attribution"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:36
+msgid "May or may not be used depending on Blockquote style"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:44
+#: bbvm-modules/blockquotes/blockquotes-module.php:47
+#: bbvm-modules/social-media-icons/social-media-module.php:68
+msgid "Style"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:51
+msgid "Blockquote Style Select"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:53
+#: bbvm-modules/photoproof/photoproof-module.php:253
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:70
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:360
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:405
+#: bbvm-modules/card/card-module.php:54
+#: bbvm-modules/card/card-module.php:109
+#: bbvm-modules/card/card-module.php:145
+#: bbvm-modules/card/card-module.php:173
+#: bbvm-modules/card/card-module.php:201
+#: bbvm-modules/card/card-module.php:229
+#: bbvm-modules/card/card-module.php:257
+#: bbvm-modules/card/card-module.php:337
+#: bbvm-modules/card/card-module.php:411
+#: bbvm-modules/card/card-module.php:434
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:156
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:94
+#: bbvm-modules/card-group/card-group-module.php:54
+#: bbvm-modules/card-group/card-group-module.php:109
+#: bbvm-modules/card-group/card-group-module.php:145
+#: bbvm-modules/card-group/card-group-module.php:173
+#: bbvm-modules/card-group/card-group-module.php:201
+#: bbvm-modules/card-group/card-group-module.php:229
+#: bbvm-modules/card-group/card-group-module.php:257
+#: bbvm-modules/card-group/card-group-module.php:337
+#: bbvm-modules/card-group/card-group-module.php:411
+#: bbvm-modules/card-group/card-group-module.php:434
+#: bbvm-modules/button/mrbb-button.php:97
+#: bbvm-modules/button/mrbb-button.php:112
+#: bbvm-modules/unordered-list/unordered-list-module.php:69
+#: bbvm-modules/animated-button/mrbb-animated-button.php:118
+#: bbvm-modules/animated-button/mrbb-animated-button.php:174
+#: bbvm-modules/animated-button/mrbb-animated-button.php:211
+#: bbvm-modules/animated-button/mrbb-animated-button.php:244
+#: bbvm-modules/animated-button/mrbb-animated-button.php:269
+#: bbvm-modules/animated-button/mrbb-animated-button.php:291
+#: bbvm-modules/animated-button/mrbb-animated-button.php:307
+#: bbvm-modules/syntax-highlighter-native/syntax-highlighter-native-module.php:40
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:85
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:40
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:65
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:255
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:299
+#: bbvm-modules/button-group/button-module.php:97
+#: bbvm-modules/button-group/button-module.php:112
+#: includes/vegas-row-settings.php:118
+msgid "None"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:54
+msgid "Enhanced"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:55
+msgid "Background Quotes"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:56
+msgid "Left Border"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:57
+msgid "Right Border"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:58
+msgid "Top and Bottom Border"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:59
+msgid "Cite"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:60
+msgid "Cite Border Effect"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:61
+msgid "Cite Animated Border"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:62
+msgid "Cite Scale"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:63
+msgid "Cite Brackets"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:64
+msgid "Cite Icon"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:84
+msgid "Background Quote Color"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:91
+msgid "Bold Quote Color"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:98
+msgid "Text Shadow Color"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:105
+#: bbvm-modules/blockquotes/blockquotes-module.php:116
+#: bbvm-modules/blockquotes/blockquotes-module.php:226
+#: bbvm-modules/postselect/post-select-module.php:372
+#: bbvm-modules/beforeafter/beforeafter-module.php:134
+#: bbvm-modules/social-media-icons/social-media-module.php:112
+#: bbvm-modules/alerts/alerts-module.php:61
+#: bbvm-modules/edd-download-count/edd-download-count-module.php:47
+#: bbvm-modules/unordered-list/unordered-list-module.php:104
+msgid "Background Color"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:112
+msgid "Container Gradient"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:122
+msgid "Enhanced Quote Color"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:129
+msgid "Enhanced Text Color"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:136
+msgid "Enhanced Border Color"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:142
+msgid "Heading Font"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:150
+msgid "Heading Font Size"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:157
+msgid "Attribution Font"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:165
+msgid "Attribution Font Size"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:172
+msgid "Border Type"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:174
+#: bbvm-modules/card/card-module.php:338
+#: bbvm-modules/card/card-module.php:435
+#: bbvm-modules/social-media-icons/social-media-module.php:90
+#: bbvm-modules/card-group/card-group-module.php:338
+#: bbvm-modules/card-group/card-group-module.php:435
+#: bbvm-modules/button/mrbb-button.php:61
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:86
+#: bbvm-modules/button-group/button-module.php:61
+msgid "Color"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:175
+#: bbvm-modules/card/card-module.php:339
+#: bbvm-modules/card/card-module.php:436
+#: bbvm-modules/social-media-icons/social-media-module.php:91
+#: bbvm-modules/card-group/card-group-module.php:339
+#: bbvm-modules/card-group/card-group-module.php:436
+#: bbvm-modules/button/mrbb-button.php:62
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:87
+#: bbvm-modules/button-group/button-module.php:62
+msgid "Gradient"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:184
+msgid "Border Background Color"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:191
+msgid "Border Background Gradient"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:195
+#: bbvm-modules/card/card-module.php:301
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:54
+#: bbvm-modules/card-group/card-group-module.php:301
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:79
+msgid "Border Width"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:201
+#: bbvm-modules/card/card-module.php:306
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:59
+#: bbvm-modules/card-group/card-group-module.php:306
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:85
+msgid "Border Color"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:208
+#: bbvm-modules/card/card-module.php:312
+#: bbvm-modules/card-group/card-group-module.php:312
+msgid "Border Color on Hover"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:215
+msgid "Border Height"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:220
+msgid "Cite Border Color"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:233
+#: bbvm-modules/postselect/post-select-module.php:377
+#: bbvm-modules/card/card-module.php:322
+#: bbvm-modules/card/card-module.php:419
+#: bbvm-modules/beforeafter/beforeafter-module.php:128
+#: bbvm-modules/card-group/card-group-module.php:322
+#: bbvm-modules/card-group/card-group-module.php:419
+#: bbvm-modules/alerts/alerts-module.php:66
+#: bbvm-modules/edd-download-count/edd-download-count-module.php:42
+#: bbvm-modules/unordered-list/unordered-list-module.php:119
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:116
+msgid "Text Color"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:240
+msgid "Blockquote Padding"
+msgstr ""
+
+#: bbvm-modules/blockquotes/blockquotes-module.php:245
+msgid "Max Width"
+msgstr ""
+
+#: bbvm-modules/postselect/includes/frontend.php:257
+msgid "Newer Items"
+msgstr ""
+
+#: bbvm-modules/postselect/includes/frontend.php:258
+msgid "Older Items"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:6
+#: bbvm-modules/postselect/post-select-module.php:127
+msgid "Post Select"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:7
+msgid "Post Select for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:26
+#: bbvm-modules/postselect/post-select-module.php:66
+msgid "All Taxonomies"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:43
+#: bbvm-modules/postselect/post-select-module.php:71
+msgid "All Terms"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:61
+#: bbvm-modules/postselect/post-select-module.php:96
+msgid "Select a Post Type"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:124
+#: bbvm-modules/photoproof/photoproof-module.php:37
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:34
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:118
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:160
+#: bbvm-modules/card/card-module.php:23
+#: bbvm-modules/testimonials/testimonials-module.php:31
+#: bbvm-modules/beforeafter/beforeafter-module.php:30
+#: bbvm-modules/syntax-highlighter/syntax-highlighter-module.php:24
+#: bbvm-modules/social-media-icons/social-media-module.php:48
+#: bbvm-modules/faq/faq-module.php:48
+#: bbvm-modules/faq/faq-module.php:51
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:28
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:34
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:29
+#: bbvm-modules/gravityforms/gravityforms-module.php:35
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:21
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:23
+#: bbvm-modules/card-group/card-group-module.php:23
+#: bbvm-modules/card-group/card-group-module.php:497
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:23
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:23
+#: bbvm-modules/alerts/alerts-module.php:23
+#: bbvm-modules/edd-download-count/edd-download-count-module.php:23
+#: bbvm-modules/button/mrbb-button.php:23
+#: bbvm-modules/button/mrbb-button.php:26
+#: bbvm-modules/unordered-list/unordered-list-module.php:23
+#: bbvm-modules/animated-button/mrbb-animated-button.php:28
+#: bbvm-modules/animated-button/mrbb-animated-button.php:31
+#: bbvm-modules/syntax-highlighter-native/syntax-highlighter-native-module.php:31
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:29
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:27
+#: bbvm-modules/copyright/copyright-module.php:29
+#: bbvm-modules/simple-separator/simple-separator.php:23
+#: bbvm-modules/woocommerce-add-to-cart/woocommerce-add-to-cart.php:23
+#: bbvm-modules/simple-spacer/simple-spacer-module.php:23
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:23
+#: bbvm-modules/gist/gist-module.php:23
+#: bbvm-modules/soliloquy/soliloquy-module.php:31
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:23
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:23
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:29
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:107
+#: bbvm-modules/button-group/button-module.php:145
+#: bbvm-modules/button-group/button-module.php:148
+msgid "General"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:131
+msgid "Select A Post Type"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:137
+msgid "Select A Taxonomy"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:144
+msgid "Select A Term"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:154
+#: bbvm-modules/postselect/post-select-module.php:157
+#: bbvm-modules/syntax-highlighter/syntax-highlighter-module.php:44
+#: bbvm-modules/syntax-highlighter/syntax-highlighter-module.php:47
+#: bbvm-modules/soliloquy/soliloquy-module.php:46
+msgid "Options"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:161
+msgid "Select Number of Items to Retrieve"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:166
+msgid "Post Display"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:168
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:47
+msgid "Grid"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:169
+#: bbvm-modules/testimonials/testimonials-module.php:113
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:48
+msgid "List"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:175
+msgid "Select Number of Columns"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:185
+msgid "Select Padding For Post Items"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:190
+msgid "Order By"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:192
+msgid "Newest to Oldest"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:193
+msgid "Oldest to Newest"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:194
+msgid "A - Z"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:195
+msgid "Z-A"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:204
+#: bbvm-modules/postselect/post-select-module.php:207
+msgid "Display"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:211
+msgid "Display Taxonomies?"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:213
+#: bbvm-modules/postselect/post-select-module.php:222
+#: bbvm-modules/postselect/post-select-module.php:272
+#: bbvm-modules/postselect/post-select-module.php:281
+#: bbvm-modules/postselect/post-select-module.php:290
+#: bbvm-modules/postselect/post-select-module.php:299
+#: bbvm-modules/postselect/post-select-module.php:308
+#: bbvm-modules/postselect/post-select-module.php:317
+#: bbvm-modules/postselect/post-select-module.php:326
+#: bbvm-modules/photoproof/photoproof-module.php:206
+#: bbvm-modules/photoproof/photoproof-module.php:231
+#: bbvm-modules/photoproof/photoproof-module.php:240
+#: bbvm-modules/photoproof/photoproof-module.php:262
+#: bbvm-modules/photoproof/photoproof-module.php:271
+#: bbvm-modules/photoproof/photoproof-module.php:280
+#: bbvm-modules/photoproof/photoproof-module.php:289
+#: bbvm-modules/photoproof/photoproof-module.php:298
+#: bbvm-modules/photoproof/photoproof-module.php:307
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:45
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:132
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:176
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:203
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:263
+#: bbvm-modules/card/card-module.php:146
+#: bbvm-modules/card/card-module.php:174
+#: bbvm-modules/card/card-module.php:202
+#: bbvm-modules/card/card-module.php:230
+#: bbvm-modules/card/card-module.php:258
+#: bbvm-modules/testimonials/testimonials-module.php:251
+#: bbvm-modules/testimonials/testimonials-module.php:266
+#: bbvm-modules/testimonials/testimonials-module.php:291
+#: bbvm-modules/testimonials/testimonials-module.php:300
+#: bbvm-modules/testimonials/testimonials-module.php:309
+#: bbvm-modules/testimonials/testimonials-module.php:318
+#: bbvm-modules/testimonials/testimonials-module.php:354
+#: bbvm-modules/beforeafter/beforeafter-module.php:111
+#: bbvm-modules/faq/faq-module.php:65
+#: bbvm-modules/faq/faq-module.php:74
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:117
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:171
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:180
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:189
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:198
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:207
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:216
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:225
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:275
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:301
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:352
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:381
+#: bbvm-modules/gravatar/gravatar-module.php:84
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:77
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:87
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:97
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:107
+#: bbvm-modules/gravityforms/gravityforms-module.php:50
+#: bbvm-modules/gravityforms/gravityforms-module.php:79
+#: bbvm-modules/gravityforms/gravityforms-module.php:112
+#: bbvm-modules/gravityforms/gravityforms-module.php:604
+#: bbvm-modules/card-group/card-group-module.php:146
+#: bbvm-modules/card-group/card-group-module.php:174
+#: bbvm-modules/card-group/card-group-module.php:202
+#: bbvm-modules/card-group/card-group-module.php:230
+#: bbvm-modules/card-group/card-group-module.php:258
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:52
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:102
+#: bbvm-modules/alerts/alerts-module.php:103
+#: bbvm-modules/alerts/alerts-module.php:135
+#: bbvm-modules/unordered-list/unordered-list-module.php:161
+#: bbvm-modules/animated-button/mrbb-animated-button.php:108
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:56
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:68
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:85
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:94
+#: bbvm-modules/gist/gist-module.php:43
+#: bbvm-modules/instagram/instagram-module.php:109
+#: bbvm-modules/instagram/instagram-module.php:118
+#: bbvm-modules/instagram/instagram-module.php:181
+#: bbvm-modules/instagram/instagram-module.php:191
+#: bbvm-modules/soliloquy/soliloquy-module.php:56
+#: bbvm-modules/soliloquy/soliloquy-module.php:80
+#: bbvm-modules/soliloquy/soliloquy-module.php:89
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:40
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:136
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:163
+#: includes/vegas-row-settings.php:79
+msgid "Yes"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:214
+#: bbvm-modules/postselect/post-select-module.php:223
+#: bbvm-modules/postselect/post-select-module.php:273
+#: bbvm-modules/postselect/post-select-module.php:282
+#: bbvm-modules/postselect/post-select-module.php:291
+#: bbvm-modules/postselect/post-select-module.php:300
+#: bbvm-modules/postselect/post-select-module.php:309
+#: bbvm-modules/postselect/post-select-module.php:318
+#: bbvm-modules/postselect/post-select-module.php:327
+#: bbvm-modules/photoproof/photoproof-module.php:66
+#: bbvm-modules/photoproof/photoproof-module.php:75
+#: bbvm-modules/photoproof/photoproof-module.php:84
+#: bbvm-modules/photoproof/photoproof-module.php:93
+#: bbvm-modules/photoproof/photoproof-module.php:102
+#: bbvm-modules/photoproof/photoproof-module.php:116
+#: bbvm-modules/photoproof/photoproof-module.php:125
+#: bbvm-modules/photoproof/photoproof-module.php:134
+#: bbvm-modules/photoproof/photoproof-module.php:143
+#: bbvm-modules/photoproof/photoproof-module.php:157
+#: bbvm-modules/photoproof/photoproof-module.php:196
+#: bbvm-modules/photoproof/photoproof-module.php:205
+#: bbvm-modules/photoproof/photoproof-module.php:230
+#: bbvm-modules/photoproof/photoproof-module.php:239
+#: bbvm-modules/photoproof/photoproof-module.php:261
+#: bbvm-modules/photoproof/photoproof-module.php:270
+#: bbvm-modules/photoproof/photoproof-module.php:279
+#: bbvm-modules/photoproof/photoproof-module.php:288
+#: bbvm-modules/photoproof/photoproof-module.php:297
+#: bbvm-modules/photoproof/photoproof-module.php:306
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:44
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:131
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:177
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:202
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:262
+#: bbvm-modules/testimonials/testimonials-module.php:250
+#: bbvm-modules/testimonials/testimonials-module.php:265
+#: bbvm-modules/testimonials/testimonials-module.php:290
+#: bbvm-modules/testimonials/testimonials-module.php:299
+#: bbvm-modules/testimonials/testimonials-module.php:308
+#: bbvm-modules/testimonials/testimonials-module.php:317
+#: bbvm-modules/testimonials/testimonials-module.php:353
+#: bbvm-modules/beforeafter/beforeafter-module.php:112
+#: bbvm-modules/faq/faq-module.php:64
+#: bbvm-modules/faq/faq-module.php:73
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:116
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:172
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:181
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:190
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:199
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:208
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:217
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:226
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:276
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:302
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:353
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:382
+#: bbvm-modules/gravatar/gravatar-module.php:85
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:78
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:88
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:98
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:108
+#: bbvm-modules/gravityforms/gravityforms-module.php:49
+#: bbvm-modules/gravityforms/gravityforms-module.php:78
+#: bbvm-modules/gravityforms/gravityforms-module.php:113
+#: bbvm-modules/gravityforms/gravityforms-module.php:605
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:53
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:103
+#: bbvm-modules/alerts/alerts-module.php:104
+#: bbvm-modules/alerts/alerts-module.php:136
+#: bbvm-modules/unordered-list/unordered-list-module.php:162
+#: bbvm-modules/animated-button/mrbb-animated-button.php:109
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:57
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:69
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:86
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:95
+#: bbvm-modules/gist/gist-module.php:44
+#: bbvm-modules/instagram/instagram-module.php:110
+#: bbvm-modules/instagram/instagram-module.php:119
+#: bbvm-modules/instagram/instagram-module.php:182
+#: bbvm-modules/instagram/instagram-module.php:192
+#: bbvm-modules/soliloquy/soliloquy-module.php:55
+#: bbvm-modules/soliloquy/soliloquy-module.php:79
+#: bbvm-modules/soliloquy/soliloquy-module.php:88
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:39
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:137
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:162
+#: includes/vegas-row-settings.php:78
+msgid "No"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:220
+msgid "Display Featured Image?"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:232
+msgid "Featured Image Type"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:234
+msgid "Featured Image"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:235
+#: bbvm-modules/gravatar/gravatar-module.php:6
+msgid "Gravatar"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:244
+msgid "Gravatar Size"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:254
+msgid "Thumbnail Size"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:259
+msgid "Featured Image Location"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:261
+msgid "Regular Placement"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:262
+msgid "Below Title"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:263
+msgid "Below Title and Post Meta"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:264
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:87
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:83
+msgid "Bottom"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:270
+msgid "Display Post Author?"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:279
+msgid "Display Post Date?"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:288
+msgid "Display Post Excerpt?"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:297
+msgid "Display Pagination?"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:306
+msgid "Change Capitalization?"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:315
+msgid "Center Text?"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:324
+msgid "Display Continue Reading Link?"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:336
+msgid "Continue Reading Text"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:345
+#: bbvm-modules/postselect/post-select-module.php:348
+msgid "Color and Typography"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:352
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:146
+msgid "Heading Typography"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:357
+msgid "Meta Typography"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:362
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:154
+msgid "Excerpt Typography"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:367
+msgid "Read More Typography"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:382
+msgid "Link Color"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:387
+msgid "Link Color Hover"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:395
+#: bbvm-modules/postselect/post-select-module.php:398
+#: bbvm-modules/gravityforms/gravityforms-module.php:595
+msgid "Pagination"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:402
+msgid "Select Padding for Pagination"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:407
+msgid "Pagination Border Color"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:412
+msgid "Pagination Item Background"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:417
+msgid "Pagination Active Item Background"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:422
+msgid "Pagination Item Hover Background"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:427
+msgid "Pagination Active Text Color"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:432
+msgid "Pagination Link Color"
+msgstr ""
+
+#: bbvm-modules/postselect/post-select-module.php:437
+msgid "Pagination Link Color Hover"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:6
+msgid "Photoproof"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:7
+msgid "Photoproof for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:8
+#: bbvm-modules/syntax-highlighter/syntax-highlighter-module.php:8
+#: bbvm-modules/gravityforms/gravityforms-module.php:8
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:8
+#: bbvm-modules/soliloquy/soliloquy-module.php:8
+msgid "External Plugins"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:22
+#: bbvm-modules/photoproof/photoproof-module.php:44
+msgid "Select an album"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:40
+msgid "Album Select"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:49
+msgid "Album Type"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:51
+#: bbvm-modules/testimonials/testimonials-module.php:111
+msgid "Slider"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:52
+msgid "Scroller"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:53
+msgid "Gallery"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:64
+msgid "Slider Autoplay"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:73
+#: bbvm-modules/photoproof/photoproof-module.php:123
+msgid "Show Slider Images and Descriptions"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:82
+msgid "Show Slider Thumbs"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:91
+msgid "Show Slider Social"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:100
+msgid "Slider Full Height Mode"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:109
+msgid "Slider Radio"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:114
+msgid "Scroller Autoplay"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:132
+msgid "Show Scroller Social"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:141
+msgid "Scroller Full Height Mode"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:150
+msgid "Scroller Radio"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:155
+#: bbvm-modules/photoproof/photoproof-module.php:164
+msgid "Scroller Parallax"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:166
+msgid "Off"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:176
+msgid "Columns for Gallery"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:190
+msgid "Gallery Module"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:194
+msgid "Show Images and Descriptions"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:203
+msgid "Show title/description on hover"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:212
+msgid "Text position over image"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:214
+msgid "Top Left"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:215
+msgid "Top Center"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:216
+msgid "Top Right"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:217
+msgid "Mid Left"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:218
+msgid "Mid Center"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:219
+msgid "Mid Right"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:220
+msgid "Bottom Left"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:221
+msgid "Bottom Center"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:222
+msgid "Bottom Right"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:228
+msgid "Show Gallery Filter"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:237
+msgid "Open Image in Lightbox"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:246
+msgid "Gallery Hover Effect"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:248
+msgid "Cross"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:249
+msgid "Drop"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:250
+msgid "Shift"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:251
+#: bbvm-modules/animated-button/mrbb-animated-button.php:181
+msgid "Pop"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:252
+msgid "Border"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:259
+msgid "Show Gradient Be Displayed Over Item"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:268
+msgid "Show Gradient Be Displayed Over Item on Hover"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:277
+msgid "Should Cover Be Displayed Over Item"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:286
+msgid "Should Cover Be Displayed Over Item on Hover"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:295
+msgid "Show Cover Color"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:304
+msgid "Show Sharing Icons Be Displayed?"
+msgstr ""
+
+#: bbvm-modules/photoproof/photoproof-module.php:313
+msgid "Gallery Radio"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:6
+msgid "Restaurant Tabbed Menu"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:7
+msgid "Add a tabbed menu for a restaurant"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:8
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:8
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:8
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:8
+msgid "Restaurant"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:31
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:26
+msgid "Add Menu Item"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:41
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:36
+msgid "Enable a menu item photo"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:55
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:50
+msgid "Enter a menu item photo (optional)"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:59
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:54
+msgid "Select a Photo Size"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:64
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:34
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:59
+msgid "Enter a menu item title"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:68
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:38
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:63
+msgid "Enable menu item icon"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:71
+#: bbvm-modules/card/card-module.php:55
+#: bbvm-modules/card/card-module.php:66
+#: bbvm-modules/card/card-module.php:405
+#: bbvm-modules/testimonials/testimonials-module.php:74
+#: bbvm-modules/testimonials/testimonials-module.php:375
+#: bbvm-modules/card-group/card-group-module.php:55
+#: bbvm-modules/card-group/card-group-module.php:66
+#: bbvm-modules/card-group/card-group-module.php:405
+#: bbvm-modules/alerts/alerts-module.php:94
+#: bbvm-modules/alerts/alerts-module.php:97
+#: bbvm-modules/unordered-list/unordered-list-module.php:70
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:41
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:46
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:66
+msgid "Icon"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:72
+#: bbvm-modules/card/card-module.php:56
+#: bbvm-modules/testimonials/testimonials-module.php:391
+#: bbvm-modules/social-media-icons/social-media-module.php:92
+#: bbvm-modules/card-group/card-group-module.php:56
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:42
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:67
+msgid "Photo"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:85
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:55
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:80
+msgid "Enter a menu item icon"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:89
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:59
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:84
+msgid "Enter a menu item icon color"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:93
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:63
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:88
+msgid "Enter a menu item icon photo"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:97
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:67
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:92
+msgid "Enter a menu item description or leave blank for no description"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:101
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:71
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:96
+msgid "Enter a price or leave blank for no price"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:115
+msgid "Add Tab"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:125
+msgid "Add a Tab Item Name"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:129
+msgid "Show Tab by Default"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:138
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:28
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:114
+msgid "Category name"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:142
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:32
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:118
+msgid "Category description or leave blank for no description"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:146
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:122
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:128
+msgid "Menu Item"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:163
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:24
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:6
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:110
+msgid "Restaurant Menu"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:167
+msgid "Menu Tab"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:174
+msgid "Display Menu Item Photo"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:190
+msgid "Menu Item Image Type"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:193
+#: bbvm-modules/card/card-module.php:126
+#: bbvm-modules/testimonials/testimonials-module.php:403
+#: bbvm-modules/beforeafter/beforeafter-module.php:88
+#: bbvm-modules/gravatar/gravatar-module.php:60
+#: bbvm-modules/card-group/card-group-module.php:126
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:117
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:142
+#: bbvm-modules/unordered-list/unordered-list-module.php:72
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:153
+msgid "Square"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:194
+#: bbvm-modules/beforeafter/beforeafter-module.php:87
+#: bbvm-modules/gravatar/gravatar-module.php:61
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:118
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:143
+#: bbvm-modules/unordered-list/unordered-list-module.php:71
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:154
+msgid "Circular"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:199
+msgid "Popup Menu Item Image in Lightbox"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:214
+msgid "Tabs"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:218
+msgid "Tab Min Width"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:225
+msgid "Tab Text Color"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:230
+msgid "Tab Text Color on Hover"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:235
+msgid "Tab Background Color"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:240
+msgid "Tab Background Color Hover/Active"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:245
+msgid "Tab Border Bottom Width"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:250
+msgid "Tab Border Bottom Width Color"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:255
+msgid "Tab Padding"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:260
+msgid "Tabs Are Sticky?"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:275
+#: bbvm-modules/testimonials/testimonials-module.php:412
+#: bbvm-modules/testimonials/testimonials-module.php:415
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:87
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:117
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:120
+#: bbvm-modules/gravityforms/gravityforms-module.php:416
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:42
+#: bbvm-modules/alerts/alerts-module.php:74
+#: bbvm-modules/alerts/alerts-module.php:77
+#: bbvm-modules/unordered-list/unordered-list-module.php:178
+#: bbvm-modules/unordered-list/unordered-list-module.php:181
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:81
+#: bbvm-modules/copyright/copyright-module.php:83
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:139
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:142
+#: bbvm-modules/gist/gist-module.php:83
+#: bbvm-modules/instagram/instagram-module.php:152
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:134
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:114
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:174
+msgid "Typography"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:279
+msgid "Tab Typography"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:283
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:46
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:64
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:178
+msgid "Category Typography"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:291
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:54
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:186
+msgid "Category Description Typography"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:299
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:85
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:194
+msgid "Menu Item Typography"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:307
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:93
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:202
+msgid "Menu Item Description Typography"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:315
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:101
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:210
+msgid "Menu Item Price Typography"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:329
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:68
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:115
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:224
+msgid "Spacing"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:333
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:72
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:95
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:228
+msgid "Category Padding"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:338
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:77
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:233
+msgid "Category Description Padding"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:343
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:119
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:238
+msgid "Menu Item Padding"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:354
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:88
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:249
+msgid "Separators"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:358
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:92
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:253
+msgid "Select category separator"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:361
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:95
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:256
+msgid "line"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:362
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:96
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:257
+msgid "image"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:376
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:109
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:270
+msgid "Line type"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:378
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:111
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:272
+msgid "Single line"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:379
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:112
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:273
+msgid "Double line"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:384
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:117
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:278
+msgid "Category line color"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:388
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:121
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:282
+msgid "Line background image"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:392
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:429
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:125
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:286
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:323
+msgid "Line height"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:398
+#: bbvm-modules/card/card-module.php:400
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:131
+#: bbvm-modules/card-group/card-group-module.php:400
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:292
+msgid "Margin"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:402
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:296
+msgid "Select item separator"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:406
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:300
+msgid "Solid line"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:407
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:301
+msgid "Dashed line"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:408
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:302
+msgid "Dotted line"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-tabbed/restaurant-menu-tabbed.php:424
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:318
+msgid "Item line color"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:6
+#: bbvm-modules/card/card-module.php:48
+#: bbvm-modules/testimonials/testimonials-module.php:112
+#: bbvm-modules/card-group/card-group-module.php:48
+#: bbvm-modules/card-group/card-group-module.php:500
+#: bbvm-modules/card-group/card-group-module.php:504
+#: bbvm-modules/instagram/instagram-module.php:85
+msgid "Card"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:7
+msgid "Add a card"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:20
+#: bbvm-modules/card-group/card-group-module.php:20
+msgid "Add Icons"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:30
+#: bbvm-modules/card-group/card-group-module.php:30
+msgid "Select icon"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:45
+#: bbvm-modules/card-group/card-group-module.php:45
+msgid "Photo/Icon"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:52
+#: bbvm-modules/card-group/card-group-module.php:52
+msgid "Card photo type"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:73
+#: bbvm-modules/testimonials/testimonials-module.php:385
+#: bbvm-modules/card-group/card-group-module.php:73
+msgid "Icon Color"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:79
+#: bbvm-modules/card-group/card-group-module.php:79
+msgid "Icon Color on Hover"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:85
+#: bbvm-modules/card-group/card-group-module.php:85
+msgid "Icon Font Size"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:91
+#: bbvm-modules/card-group/card-group-module.php:91
+msgid "Icon Background Color"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:97
+#: bbvm-modules/card-group/card-group-module.php:97
+msgid "Icon Background Color on Hover"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:103
+#: bbvm-modules/card-group/card-group-module.php:103
+msgid "Icon Padding"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:107
+#: bbvm-modules/card-group/card-group-module.php:107
+msgid "Select an Icon Appearance"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:110
+#: bbvm-modules/card/card-module.php:127
+#: bbvm-modules/card-group/card-group-module.php:110
+#: bbvm-modules/card-group/card-group-module.php:127
+msgid "Rounded"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:115
+#: bbvm-modules/card-group/card-group-module.php:115
+msgid "Select a Photo"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:119
+#: bbvm-modules/card-group/card-group-module.php:119
+msgid "Select a Photo Size (height/width)"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:124
+#: bbvm-modules/card-group/card-group-module.php:124
+msgid "Select a Photo Appearance"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:135
+#: bbvm-modules/card/card-module.php:138
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:40
+#: bbvm-modules/card-group/card-group-module.php:135
+#: bbvm-modules/card-group/card-group-module.php:138
+msgid "Content"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:142
+#: bbvm-modules/card-group/card-group-module.php:142
+msgid "Display a Heading"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:156
+#: bbvm-modules/card-group/card-group-module.php:156
+msgid "Enter a Heading"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:160
+#: bbvm-modules/card-group/card-group-module.php:160
+msgid "Enter a Heading Typography"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:165
+#: bbvm-modules/card-group/card-group-module.php:165
+msgid "Enter a Heading Padding"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:170
+#: bbvm-modules/card-group/card-group-module.php:170
+msgid "Display Content"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:184
+#: bbvm-modules/card-group/card-group-module.php:184
+msgid "Enter Content"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:188
+#: bbvm-modules/card-group/card-group-module.php:188
+msgid "Enter Content Typography"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:193
+#: bbvm-modules/card-group/card-group-module.php:193
+msgid "Enter Content Padding"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:198
+#: bbvm-modules/card-group/card-group-module.php:198
+msgid "Display Subheading"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:212
+#: bbvm-modules/card-group/card-group-module.php:212
+msgid "Enter Subheading"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:216
+#: bbvm-modules/card-group/card-group-module.php:216
+msgid "Enter Subheading Typography"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:221
+#: bbvm-modules/card-group/card-group-module.php:221
+msgid "Enter Subheading Padding"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:226
+#: bbvm-modules/card-group/card-group-module.php:226
+msgid "Display Subheading Text"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:240
+#: bbvm-modules/card-group/card-group-module.php:240
+msgid "Enter Subheading Text"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:244
+#: bbvm-modules/card-group/card-group-module.php:244
+msgid "Enter Subheading Text Typography"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:249
+#: bbvm-modules/card-group/card-group-module.php:249
+msgid "Enter Subheading Text Padding"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:254
+#: bbvm-modules/card-group/card-group-module.php:254
+msgid "Display Read More Button"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:268
+#: bbvm-modules/card-group/card-group-module.php:268
+msgid "Enter Read More Text"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:272
+#: bbvm-modules/card-group/card-group-module.php:272
+msgid "Enter Read More Link"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:276
+#: bbvm-modules/card-group/card-group-module.php:276
+msgid "Enter Read More Typography"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:281
+#: bbvm-modules/card-group/card-group-module.php:281
+msgid "Enter Read More Padding"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:289
+#: bbvm-modules/card/card-module.php:292
+#: bbvm-modules/faq/faq-module.php:83
+#: bbvm-modules/faq/faq-module.php:86
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:50
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:53
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:235
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:238
+#: bbvm-modules/gravityforms/gravityforms-module.php:149
+#: bbvm-modules/card-group/card-group-module.php:289
+#: bbvm-modules/card-group/card-group-module.php:292
+#: bbvm-modules/button/mrbb-button.php:138
+#: bbvm-modules/button/mrbb-button.php:141
+#: bbvm-modules/unordered-list/unordered-list-module.php:61
+#: bbvm-modules/unordered-list/unordered-list-module.php:64
+#: bbvm-modules/animated-button/mrbb-animated-button.php:320
+#: bbvm-modules/animated-button/mrbb-animated-button.php:323
+#: bbvm-modules/copyright/copyright-module.php:59
+#: bbvm-modules/copyright/copyright-module.php:62
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:104
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:107
+#: bbvm-modules/gist/gist-module.php:52
+#: bbvm-modules/gist/gist-module.php:55
+#: bbvm-modules/button-group/button-module.php:162
+#: bbvm-modules/button-group/button-module.php:165
+msgid "Styles"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:296
+#: bbvm-modules/card/card-module.php:395
+#: bbvm-modules/social-media-icons/social-media-module.php:72
+#: bbvm-modules/card-group/card-group-module.php:296
+#: bbvm-modules/card-group/card-group-module.php:395
+#: bbvm-modules/edd-download-count/edd-download-count-module.php:58
+#: bbvm-modules/unordered-list/unordered-list-module.php:139
+msgid "Padding"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:318
+#: bbvm-modules/card/card-module.php:483
+#: bbvm-modules/card-group/card-group-module.php:318
+#: bbvm-modules/card-group/card-group-module.php:483
+#: bbvm-modules/alerts/alerts-module.php:177
+msgid "Button Border Radius"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:328
+#: bbvm-modules/card/card-module.php:425
+#: bbvm-modules/card-group/card-group-module.php:328
+#: bbvm-modules/card-group/card-group-module.php:425
+msgid "Text Color on Hover"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:334
+#: bbvm-modules/card/card-module.php:431
+#: bbvm-modules/card-group/card-group-module.php:334
+#: bbvm-modules/card-group/card-group-module.php:431
+msgid "Display a Background Type"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:353
+#: bbvm-modules/card/card-module.php:450
+#: bbvm-modules/card-group/card-group-module.php:353
+#: bbvm-modules/card-group/card-group-module.php:450
+msgid "Display a Background Color"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:359
+#: bbvm-modules/card/card-module.php:456
+#: bbvm-modules/card-group/card-group-module.php:359
+#: bbvm-modules/card-group/card-group-module.php:456
+msgid "Display a Background Color on Hover"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:365
+#: bbvm-modules/card/card-module.php:462
+#: bbvm-modules/card-group/card-group-module.php:365
+#: bbvm-modules/card-group/card-group-module.php:462
+msgid "Display a Gradient"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:370
+#: bbvm-modules/card/card-module.php:467
+#: bbvm-modules/card-group/card-group-module.php:370
+#: bbvm-modules/card-group/card-group-module.php:467
+msgid "Display a Gradient on Hover"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:375
+#: bbvm-modules/card-group/card-group-module.php:375
+msgid "Text Shadow"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:380
+#: bbvm-modules/card-group/card-group-module.php:380
+msgid "Text Shadow on Hover"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:388
+#: bbvm-modules/card/card-module.php:391
+#: bbvm-modules/card-group/card-group-module.php:388
+#: bbvm-modules/card-group/card-group-module.php:391
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:146
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:149
+#: bbvm-modules/alerts/alerts-module.php:126
+#: bbvm-modules/alerts/alerts-module.php:129
+#: bbvm-modules/button/mrbb-button.php:6
+#: bbvm-modules/button-group/button-module.php:23
+#: bbvm-modules/button-group/button-module.php:152
+msgid "Button"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:409
+#: bbvm-modules/card-group/card-group-module.php:409
+msgid "Icon Position"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:412
+#: bbvm-modules/beforeafter/beforeafter-module.php:119
+#: bbvm-modules/card-group/card-group-module.php:412
+msgid "Before"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:472
+#: bbvm-modules/card-group/card-group-module.php:472
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:190
+msgid "Button Border Width"
+msgstr ""
+
+#: bbvm-modules/card/card-module.php:477
+#: bbvm-modules/card-group/card-group-module.php:477
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:179
+#: bbvm-modules/alerts/alerts-module.php:187
+msgid "Button Border Color"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:6
+#: bbvm-modules/testimonials/testimonials-module.php:327
+#: bbvm-modules/testimonials/testimonials-module.php:330
+msgid "Testimonials"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:7
+msgid "Add Testimonials"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:28
+msgid "Add Testimonial"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:34
+msgid "Add Testimonial Content"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:38
+msgid "Testimonial Rating"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:50
+msgid "Testimonial Name"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:54
+msgid "Testimonial Title"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:58
+msgid "Testimonial Content"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:65
+#: bbvm-modules/testimonials/testimonials-module.php:75
+msgid "Image"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:68
+msgid "Add Image"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:72
+msgid "Testimonial Image Type"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:84
+msgid "Testimonial Icon"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:88
+msgid "Testimonial Image"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:109
+msgid "Testimonial type"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:124
+msgid "Card Width"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:131
+#: bbvm-modules/instagram/instagram-module.php:130
+msgid "Card Background Color"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:136
+msgid "Card Background Hover Color"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:141
+#: bbvm-modules/card-group/card-group-module.php:524
+#: bbvm-modules/instagram/instagram-module.php:125
+msgid "Card Padding"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:146
+msgid "Card Margin"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:151
+msgid "Bottom Margin"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:157
+msgid "Left Area Background"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:172
+msgid "Right Area Background"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:177
+msgid "Left Area Padding"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:183
+msgid "Right Area Padding"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:189
+msgid "List Border"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:194
+msgid "List Border Color"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:199
+msgid "List Border Radius"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:204
+msgid "List Shadow"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:209
+msgid "Select An Animation"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:211
+msgid "Fade In"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:212
+msgid "Fade In Down"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:213
+msgid "Fade In Down Big"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:214
+msgid "Fade In Left"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:215
+msgid "Fade In Left Big"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:216
+msgid "Fade In Right"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:217
+msgid "Fade In Right Big"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:218
+msgid "Fade In Up"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:219
+msgid "Fade In Up Big"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:220
+#: bbvm-modules/animated-button/mrbb-animated-button.php:182
+msgid "Bounce In"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:221
+msgid "Bounce In Down"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:222
+msgid "Bounce In Left"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:223
+msgid "Bounce In Right"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:224
+msgid "Bounce In Up"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:225
+msgid "Flip"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:226
+msgid "Flip In X"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:227
+msgid "Flip In Y"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:228
+msgid "Light Speed In"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:229
+msgid "Rotate In"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:230
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:231
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:232
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:233
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:234
+msgid "Slide In Up"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:235
+msgid "Slide In Down"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:236
+msgid "Slide In Left"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:237
+msgid "Slide In Right"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:238
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:134
+#: includes/vegas-row-settings.php:96
+msgid "Zoom In"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:239
+msgid "Zoom In Down"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:240
+msgid "Zoom In Left"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:241
+msgid "Zoom In Right"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:242
+msgid "Zoom In Up"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:248
+msgid "Show Nav Buttons"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:258
+msgid "Navigation Arrows Color"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:263
+msgid "Show Nav Bullets"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:273
+msgid "Navigation Bullets Color"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:278
+msgid "Navigation Bullets Active Color"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:283
+msgid "Slide Duration in Milliseconds"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:288
+msgid "Loop"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:297
+msgid "Auto Play?"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:306
+msgid "Pause on Hover?"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:315
+msgid "Auto Height?"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:335
+msgid "Testimonial"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:344
+msgid "Appearance"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:347
+msgid "Rating"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:351
+msgid "Show Rating"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:363
+msgid "Rating Color"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:368
+msgid "Rating Size"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:379
+#: bbvm-modules/social-media-icons/social-media-module.php:152
+msgid "Icon Size"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:395
+msgid "Photo Size"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:401
+msgid "Photo Appearance"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:404
+msgid "Circle"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:419
+msgid "Name Typography"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:424
+msgid "Name Color"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:429
+msgid "Name Padding"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:434
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:124
+msgid "Title Typography"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:439
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:204
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:121
+msgid "Title Color"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:444
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:174
+msgid "Title Padding"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:449
+msgid "Content Typography"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:454
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:205
+msgid "Content Color"
+msgstr ""
+
+#: bbvm-modules/testimonials/testimonials-module.php:459
+msgid "Content Padding"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:6
+#: bbvm-modules/beforeafter/beforeafter-module.php:7
+#: bbvm-modules/beforeafter/beforeafter-module.php:33
+msgid "Before and After"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:37
+msgid "Before Photo"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:39
+#: bbvm-modules/beforeafter/beforeafter-module.php:45
+msgid "Ensure the images are the same size"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:43
+msgid "After Photo"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:49
+msgid "Select a Style"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:51
+msgid "Side to Side"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:52
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:124
+#: bbvm-modules/animated-button/mrbb-animated-button.php:212
+#: includes/vegas-row-settings.php:86
+msgid "Fade"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:53
+msgid "Hover"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:54
+msgid "Vertical Separator"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:55
+msgid "Horizontal Separator"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:66
+msgid "Separator Line Color"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:72
+msgid "Separator Background Color"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:79
+msgid "Separator Arrow Color"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:85
+msgid "Separator Style"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:94
+msgid "Transition Delay in Seconds"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:102
+#: bbvm-modules/beforeafter/beforeafter-module.php:105
+msgid "Before & After Text"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:109
+msgid "Show Before/After Text"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:118
+#: bbvm-modules/woocommerce-add-to-cart/woocommerce-add-to-cart.php:42
+msgid "Before Text"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:123
+#: bbvm-modules/woocommerce-add-to-cart/woocommerce-add-to-cart.php:43
+msgid "After Text"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:124
+msgid "After"
+msgstr ""
+
+#: bbvm-modules/beforeafter/beforeafter-module.php:141
+#: bbvm-modules/edd-download-count/edd-download-count-module.php:54
+msgid "Text Typography"
+msgstr ""
+
+#: bbvm-modules/syntax-highlighter/syntax-highlighter-module.php:6
+#: bbvm-modules/syntax-highlighter/syntax-highlighter-module.php:27
+#: bbvm-modules/syntax-highlighter-native/syntax-highlighter-native-module.php:6
+#: bbvm-modules/syntax-highlighter-native/syntax-highlighter-native-module.php:34
+msgid "Syntax Highlighter"
+msgstr ""
+
+#: bbvm-modules/syntax-highlighter/syntax-highlighter-module.php:7
+#: bbvm-modules/syntax-highlighter-native/syntax-highlighter-native-module.php:7
+msgid "Syntax Highlighter for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/syntax-highlighter/syntax-highlighter-module.php:31
+msgid "Enter your code type"
+msgstr ""
+
+#: bbvm-modules/syntax-highlighter/syntax-highlighter-module.php:36
+msgid "Enter your code here. For this to preview properly, enable loading all brushes in the Syntax Highlighting settings."
+msgstr ""
+
+#: bbvm-modules/syntax-highlighter/syntax-highlighter-module.php:51
+msgid "Select a Title or Leave Blank"
+msgstr ""
+
+#: bbvm-modules/syntax-highlighter/syntax-highlighter-module.php:55
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:57
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:242
+#: bbvm-modules/copyright/copyright-module.php:66
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:126
+#: bbvm-modules/gist/gist-module.php:59
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:116
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:96
+msgid "Select a Padding"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:6
+msgid "Social Media Icons"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:7
+msgid "Adds social media icons"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:23
+msgid "Add Social Media URL"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:51
+msgid "Add Social Icons"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:55
+msgid "Social Item"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:78
+msgid "Orientation"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:81
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:69
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:65
+msgid "Horizontal"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:82
+msgid "Vertical"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:87
+msgid "Background Type"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:102
+msgid "Background Image"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:119
+msgid "Gradient Background Color"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:128
+msgid "Fill Color"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:131
+msgid "Select a color"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:132
+msgid "White"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:133
+msgid "Black"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:134
+msgid "Brand Colors"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:135
+#: bbvm-modules/gravityforms/gravityforms-module.php:51
+#: bbvm-modules/gravityforms/gravityforms-module.php:80
+msgid "Custom"
+msgstr ""
+
+#: bbvm-modules/social-media-icons/social-media-module.php:145
+msgid "Custom Fill Color"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:6
+#: bbvm-modules/faq/faq-module.php:23
+#: bbvm-modules/faq/faq-module.php:55
+msgid "FAQ"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:7
+msgid "Add a FAQ"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:20
+msgid "Add FAQ"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:30
+msgid "FAQ Item"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:34
+msgid "FAQ Answer"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:62
+msgid "Display Table of Contents"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:71
+msgid "Answers Expanded?"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:90
+msgid "Table of Contents Typography"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:95
+msgid "Question Typography"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:100
+msgid "Question Color"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:106
+msgid "Question Background Color"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:112
+msgid "Question Padding"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:117
+msgid "Question Margin"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:122
+msgid "Question Radius"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:127
+msgid "Question Border Bottom"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:132
+msgid "Question Border Bottom Color"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:137
+msgid "Answer Typography"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:142
+msgid "Answer Color"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:148
+msgid "Answer Background Color"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:154
+msgid "Answer Padding"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:159
+msgid "Answer Margin"
+msgstr ""
+
+#: bbvm-modules/faq/faq-module.php:164
+msgid "Answer Radius"
+msgstr ""
+
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:6
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:31
+msgid "Breadcrumbs"
+msgstr ""
+
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:7
+msgid "Breadcrumbs for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:35
+msgid "Select Breadcrumb Service"
+msgstr ""
+
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:38
+msgid "No breadcrumbs"
+msgstr ""
+
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:39
+msgid "Yoast SEO"
+msgstr ""
+
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:40
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:41
+msgid "SEOPress"
+msgstr ""
+
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:42
+msgid "Rank Math"
+msgstr ""
+
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:61
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:246
+#: bbvm-modules/copyright/copyright-module.php:70
+#: bbvm-modules/gist/gist-module.php:63
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:121
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:101
+msgid "Select a Background Color"
+msgstr ""
+
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:68
+#: bbvm-modules/copyright/copyright-module.php:77
+#: bbvm-modules/gist/gist-module.php:70
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:128
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:108
+msgid "Select a Text Color"
+msgstr ""
+
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:74
+msgid "Select a Link Color"
+msgstr ""
+
+#: bbvm-modules/basic-breadcrumbs-module/breadcrumbs-module.php:80
+msgid "Select a Link Hover Color"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:6
+msgid "Vegas Full-width Slideshow"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:7
+msgid "Vegas Full-width Slideshow for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:31
+msgid "Add Slideshow Image"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:41
+msgid "Slideshow Photo"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:45
+msgid "Slideshow Caption"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:49
+msgid "Slideshow Sub-Caption"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:53
+msgid "Link Text"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:57
+msgid "Link Location"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:72
+msgid "Images"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:75
+msgid "Simple Slideshow"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:80
+msgid "Slideshow Image"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:89
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:92
+msgid "Slideshow Options"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:96
+msgid "Slider Min Height"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:103
+msgid "Slide Delay Between Transitions In Milliseconds"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:122
+#: includes/vegas-row-settings.php:84
+msgid "Transition"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:125
+#: includes/vegas-row-settings.php:87
+msgid "Fade 2"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:126
+#: includes/vegas-row-settings.php:88
+msgid "Slide Left"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:127
+#: includes/vegas-row-settings.php:89
+msgid "Slide Left 2"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:128
+#: includes/vegas-row-settings.php:90
+msgid "Slide Right"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:129
+#: includes/vegas-row-settings.php:91
+msgid "Slide Right 2"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:130
+#: includes/vegas-row-settings.php:92
+msgid "Slide Up"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:131
+#: includes/vegas-row-settings.php:93
+msgid "Slide Up 2"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:132
+#: includes/vegas-row-settings.php:94
+msgid "Slide Down"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:133
+#: includes/vegas-row-settings.php:95
+msgid "Slide Down 2"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:135
+#: includes/vegas-row-settings.php:97
+msgid "Zoom In 2"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:136
+#: includes/vegas-row-settings.php:98
+msgid "Zoom Out"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:137
+#: includes/vegas-row-settings.php:99
+msgid "Zoom Out 2"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:138
+#: includes/vegas-row-settings.php:100
+msgid "Swirl Left"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:139
+#: includes/vegas-row-settings.php:101
+msgid "Swirl Left 2"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:140
+#: includes/vegas-row-settings.php:102
+msgid "Swirl Right"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:141
+#: includes/vegas-row-settings.php:103
+msgid "Swirl Right 2"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:142
+#: includes/vegas-row-settings.php:104
+msgid "Burn"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:143
+#: includes/vegas-row-settings.php:105
+msgid "Burn 2"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:144
+#: includes/vegas-row-settings.php:106
+msgid "Blur"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:145
+#: includes/vegas-row-settings.php:107
+msgid "Blur 2"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:146
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:89
+#: includes/vegas-row-settings.php:108
+msgid "Flash"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:147
+#: includes/vegas-row-settings.php:109
+msgid "Flash 2"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:153
+#: bbvm-modules/animated-button/mrbb-animated-button.php:99
+#: bbvm-modules/animated-button/mrbb-animated-button.php:102
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:76
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:79
+#: includes/vegas-row-settings.php:115
+msgid "Animations"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:157
+#: includes/vegas-row-settings.php:119
+msgid "Ken Burns"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:158
+#: includes/vegas-row-settings.php:120
+msgid "Ken Burns Left"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:159
+#: includes/vegas-row-settings.php:121
+msgid "Ken Burns Right"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:160
+#: includes/vegas-row-settings.php:122
+msgid "Ken Burns Up"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:161
+#: includes/vegas-row-settings.php:123
+msgid "Ken Burns Up Left"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:162
+#: includes/vegas-row-settings.php:124
+msgid "Ken Burns Up Right"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:163
+#: includes/vegas-row-settings.php:125
+msgid "Ken Burns Down"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:164
+#: includes/vegas-row-settings.php:126
+msgid "Ken Burns Down Left"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:164
+#: includes/vegas-row-settings.php:126
+msgid "Ken Burns Down Right"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:169
+msgid "Show Arrows"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:178
+msgid "Show Bullets"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:187
+msgid "Pre-load All Assets Before Starting Slider"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:196
+msgid "Start Slideshow Automatically"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:205
+msgid "Loop Slideshow"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:214
+msgid "Shuffle Slides"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:223
+msgid "Show Arrows on Hover"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:253
+msgid "Arrow Color"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:258
+msgid "Arrow Background Color"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:263
+msgid "Bullet Color"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:268
+msgid "Bullet Active Color"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:273
+msgid "Show Overlay"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:283
+msgid "Overlay Color"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:292
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:295
+msgid "Caption"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:299
+msgid "Show Caption"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:308
+msgid "Caption Text Color"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:314
+msgid "Caption Padding"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:319
+msgid "Caption Background Color"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:325
+msgid "Caption Border Width"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:330
+msgid "Caption Border Color"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:336
+#: bbvm-modules/instagram/instagram-module.php:164
+msgid "Caption Typography"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:343
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:346
+msgid "Subcaption"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:350
+msgid "Show Sub-Caption"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:359
+msgid "Sub-Caption Text Color"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:365
+msgid "Sub-Caption Typography"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:372
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:375
+msgid "Link"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:379
+msgid "Show Link"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:388
+msgid "Link Text Color"
+msgstr ""
+
+#: bbvm-modules/vegas-slideshow/vegas-slideshow-module.php:394
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:150
+msgid "Link Typography"
+msgstr ""
+
+#: bbvm-modules/gravatar/gravatar-module.php:7
+msgid "Add Gravatar"
+msgstr ""
+
+#: bbvm-modules/gravatar/gravatar-module.php:30
+msgid "Gravatar Type"
+msgstr ""
+
+#: bbvm-modules/gravatar/gravatar-module.php:32
+#: bbvm-modules/gravatar/gravatar-module.php:43
+msgid "User ID"
+msgstr ""
+
+#: bbvm-modules/gravatar/gravatar-module.php:33
+#: bbvm-modules/gravatar/gravatar-module.php:48
+msgid "Email Address"
+msgstr ""
+
+#: bbvm-modules/gravatar/gravatar-module.php:53
+msgid "Avatar Size"
+msgstr ""
+
+#: bbvm-modules/gravatar/gravatar-module.php:58
+msgid "Avatar Type"
+msgstr ""
+
+#: bbvm-modules/gravatar/gravatar-module.php:67
+msgid "Avatar Title"
+msgstr ""
+
+#: bbvm-modules/gravatar/gravatar-module.php:72
+msgid "Avatar Title Typography"
+msgstr ""
+
+#: bbvm-modules/gravatar/gravatar-module.php:77
+msgid "Avatar Align"
+msgstr ""
+
+#: bbvm-modules/gravatar/gravatar-module.php:82
+msgid "Link to Gravatar Profile"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:6
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:7
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:32
+msgid "Featured Products"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:8
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:8
+#: bbvm-modules/woocommerce-add-to-cart/woocommerce-add-to-cart.php:8
+msgid "WooCommerce"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:36
+msgid "WooCommerce Products"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:43
+msgid "Photo Sizes to Use"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:48
+msgid "Item Width"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:64
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:169
+msgid "Item Margin"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:69
+msgid "Currency Locale"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:74
+msgid "Show Title"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:84
+msgid "Show Short Description"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:94
+msgid "Show Description"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:104
+msgid "Show View Details"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:129
+msgid "Short Description Typography"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:134
+msgid "Description Typography"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:139
+msgid "Price Typography"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:144
+msgid "Show Details Typography"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:149
+msgid "Show Details Content Typography"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:154
+msgid "Show Details Heading Typography"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:162
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:165
+msgid "Colors and Padding"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:179
+msgid "Description Padding"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:184
+msgid "Short Description Padding"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:189
+msgid "Price Padding"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:194
+msgid "Show Details Padding"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:199
+msgid "Show Details Content Padding"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:210
+msgid "Description Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:216
+msgid "Short Description Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:222
+msgid "Price Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:231
+msgid "Details"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:234
+msgid "Details Button"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:238
+msgid "Show Details Text"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:239
+msgid "Show Details"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:243
+msgid "Button Behavior"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:245
+msgid "Link to Product Page"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:246
+msgid "Slide Down to Show More Details"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:247
+msgid "Use a Lightbox to Show More Details"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:253
+msgid "Show Details Text Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:259
+msgid "Show Details Text Hover Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:265
+msgid "Show Details Background Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:271
+msgid "Show Details Background Hover Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:277
+msgid "Show Details Icon"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:283
+msgid "Show Details Icon Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:289
+msgid "Show Details Icon Hover Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:295
+msgid "Show Details Icon Background Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:301
+msgid "Show Details Icon Background Hover Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:307
+msgid "Show Details Icon Border Radius"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:315
+#: bbvm-modules/woocommerce-add-to-cart/woocommerce-add-to-cart.php:31
+msgid "Cart"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:318
+msgid "Add to Cart"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:322
+msgid "Cart Padding"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:327
+msgid "Cart Background Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:332
+msgid "Cart Background Hover Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:337
+msgid "Cart Text Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:342
+msgid "Cart Text Hover Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/woocommerce-featured-products.php:347
+msgid "Cart Typography"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/includes/frontend.php:76
+msgid "SKU"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/includes/frontend.php:87
+#: bbvm-modules/woocommerce-featured-products/includes/frontend.php:94
+msgid "Stock"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/includes/frontend.php:88
+msgid "in stock"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/includes/frontend.php:95
+msgid "Out of stock"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-products/includes/frontend.php:101
+msgid "Purchase"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:6
+msgid "Gravity Forms"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:7
+msgid "Gravity Forms for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:26
+#: bbvm-modules/gravityforms/gravityforms-module.php:42
+msgid "Select a form"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:38
+msgid "Form Select"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:47
+msgid "Show form title"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:60
+msgid "Form Title Padding"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:64
+msgid "Form Title Margin"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:68
+msgid "Custom title"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:72
+msgid "Form title color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:76
+msgid "Show form description"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:89
+msgid "Form Description Padding"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:93
+msgid "Form Description Margin"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:97
+msgid "Custom description"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:101
+msgid "Form description color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:106
+msgid "Advanced"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:110
+msgid "Ajax only form?"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:119
+msgid "Select a tabindex"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:125
+msgid "Layout"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:129
+msgid "Choose Layout"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:131
+#: bbvm-modules/syntax-highlighter-native/syntax-highlighter-native-module.php:202
+msgid "Default"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:132
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:42
+msgid "Full Width"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:133
+msgid "Full Width Centered"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:139
+msgid "Select a maximum width for the form"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:152
+msgid "General Styles"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:156
+msgid "Select a padding"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:167
+msgid "Select a form margin"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:172
+msgid "Select a background color for your form"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:179
+msgid "Select a border radius for your form"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:184
+msgid "Show/Hide"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:188
+msgid "Show or hide labels"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:190
+msgid "Show labels"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:191
+msgid "Hide labels"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:197
+msgid "Show or hide descriptions"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:199
+msgid "Show description"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:200
+msgid "Hide description"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:206
+msgid "Show or hide placeholders"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:208
+msgid "Show placeholders"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:209
+msgid "Hide placeholders"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:216
+msgid "Labels"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:220
+msgid "Label Color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:225
+msgid "Sub-label Color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:230
+msgid "Label Padding"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:234
+msgid "Label Margin"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:239
+msgid "Input styles"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:243
+msgid "Input Height"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:249
+msgid "Input General Padding"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:254
+msgid "Input General Margin"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:259
+msgid "Input padding"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:264
+msgid "Input background color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:270
+msgid "Input text color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:275
+msgid "Input border width"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:280
+msgid "Input border color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:285
+msgid "Input border_radius"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:289
+msgid "Input text align"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:295
+msgid "Select styles"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:299
+msgid "Select padding"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:304
+msgid "Select height"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:308
+msgid "Select align"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:313
+msgid "Textarea styles"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:317
+msgid "Textarea background color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:323
+msgid "Textarea text color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:328
+msgid "Textarea border width"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:333
+msgid "Textarea border color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:338
+msgid "Textarea border radius"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:342
+msgid "Textarea padding"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:347
+msgid "Textarea height"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:352
+msgid "Textarea text align"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:358
+msgid "List\t styles"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:362
+msgid "List bullet size"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:367
+msgid "List bullet background"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:372
+msgid "List text color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:376
+msgid "List item selected color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:381
+msgid "List border width"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:385
+msgid "List border color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:389
+msgid "List radio radius"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:394
+msgid "List checkbox radius"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:401
+msgid "Placeholder styles"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:405
+#: bbvm-modules/gravityforms/gravityforms-module.php:463
+msgid "Placeholder typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:409
+msgid "Placeholder color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:419
+msgid "General typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:423
+msgid "Select an form title typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:428
+msgid "Select an form description typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:433
+msgid "Select an label typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:438
+msgid "Select an sub-label typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:443
+msgid "Select an input typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:448
+msgid "Dropdown typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:453
+msgid "List typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:458
+msgid "Textarea typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:471
+#: bbvm-modules/instagram/instagram-module.php:172
+msgid "Buttons"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:474
+msgid "Button styles"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:478
+msgid "Select button typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:483
+msgid "Select button padding"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:488
+msgid "Select button border width"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:493
+msgid "Select a button border radius"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:497
+msgid "Select button background color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:503
+msgid "Select button background hover color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:509
+msgid "Select button text color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:514
+msgid "Select button text hover color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:519
+msgid "Select an button border width"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:523
+msgid "Select an button border color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:530
+msgid "Errors/Confirmations"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:533
+msgid "Errors"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:537
+msgid "Select a message color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:542
+msgid "Select a message typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:546
+msgid "Select a label color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:551
+msgid "Select a label background color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:556
+msgid "Select a label border color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:561
+msgid "Select a label border width"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:568
+msgid "Confirmations"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:572
+msgid "Select a confirmation color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:577
+msgid "Select a confirmation background color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:582
+msgid "Select a confirmation padding"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:587
+msgid "Select confirmation typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:598
+msgid "Progress Bar"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:602
+msgid "Show progress bar title?"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:614
+msgid "Progress title"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:618
+msgid "Progress title color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:622
+msgid "Progress bar outer border radius"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:628
+msgid "Progress bar inner border radius"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:633
+msgid "Progress bar padding"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:638
+msgid "Progress bar inner color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:642
+msgid "Progress bar outer color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:648
+msgid "Progress bar text color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:653
+msgid "Progress bar text typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:658
+msgid "Progress Steps"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:662
+msgid "Internal margin for progress steps"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:668
+msgid "Padding for progress steps"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:674
+msgid "Active background color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:678
+msgid "Active text color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:682
+msgid "Active border color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:686
+msgid "Active border width"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:690
+msgid "Active border radius"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:694
+msgid "Active typography"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:698
+msgid "Inactive background color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:702
+msgid "Inactive text color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:706
+msgid "Inctive opacity"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:716
+msgid "Inactive border color"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:720
+msgid "Inactive border width"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:724
+msgid "Inactive border radius"
+msgstr ""
+
+#: bbvm-modules/gravityforms/gravityforms-module.php:728
+msgid "Inactive typography"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:6
+msgid "Restaurant Category"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-category/restaurant-menu-category.php:7
+msgid "Add menu category for a restaurant"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:6
+msgid "Intermediate Separator"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:7
+msgid "Intermediate Separator for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:8
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:8
+#: bbvm-modules/simple-separator/simple-separator.php:8
+#: bbvm-modules/simple-spacer/simple-spacer-module.php:8
+msgid "Separators/Spacers"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:26
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:26
+#: bbvm-modules/simple-separator/simple-separator.php:26
+msgid "Separator"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:30
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:30
+#: bbvm-modules/simple-separator/simple-separator.php:36
+msgid "Color of Separator"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:37
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:37
+#: bbvm-modules/simple-separator/simple-separator.php:55
+msgid "Separator style"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:41
+msgid "Simple Line"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:43
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:45
+msgid "Double Line"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:44
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:88
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:115
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:118
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:122
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:46
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:168
+msgid "Background Photo"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:82
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:104
+msgid "Separator height"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:92
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:172
+msgid "Repeat Options"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:103
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:183
+msgid "Margin between separators"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:109
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:189
+msgid "Thickness of separators"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:115
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:195
+msgid "Separator Content"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:120
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:200
+msgid "Separator Content Typography"
+msgstr ""
+
+#: bbvm-modules/intermediate-separator/intermediate-separator.php:124
+msgid "Content height"
+msgstr ""
+
+#: bbvm-modules/card-group/card-group-module.php:6
+#: bbvm-modules/card-group/card-group-module.php:7
+msgid "Card Group"
+msgstr ""
+
+#: bbvm-modules/card-group/card-group-module.php:42
+msgid "Add a Card"
+msgstr ""
+
+#: bbvm-modules/card-group/card-group-module.php:511
+msgid "Maximum Number of Columns"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:6
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:7
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:26
+msgid "Featured Category"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:30
+msgid "WooCommerce Category"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:37
+msgid "Item Height"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:44
+msgid "Inner Margin"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:45
+msgid "Recommended margin is 20"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:50
+msgid "Link Entire Container to Category"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:59
+msgid "Category Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:69
+msgid "Select Style"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:71
+msgid "Inner Border"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:72
+msgid "No Border"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:90
+msgid "Border Hover Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:100
+msgid "Show Button"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:127
+msgid "Background Overlay"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:135
+msgid "Background Overlay Hover"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:153
+msgid "Button Background"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:160
+msgid "Button Background Hover"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:167
+#: bbvm-modules/alerts/alerts-module.php:165
+#: bbvm-modules/button/mrbb-button.php:48
+#: bbvm-modules/animated-button/mrbb-animated-button.php:62
+#: bbvm-modules/button-group/button-module.php:48
+msgid "Button Text Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:173
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:185
+msgid "Button Border Color on Hover"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:195
+msgid "Button Border Width on Hover"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:200
+#: bbvm-modules/alerts/alerts-module.php:183
+#: bbvm-modules/button/mrbb-button.php:150
+#: bbvm-modules/animated-button/mrbb-animated-button.php:332
+#: bbvm-modules/button-group/button-module.php:174
+msgid "Button Padding"
+msgstr ""
+
+#: bbvm-modules/woocommerce-featured-category/woocommerce-featured-category.php:204
+#: bbvm-modules/alerts/alerts-module.php:149
+#: bbvm-modules/button/mrbb-button.php:155
+#: bbvm-modules/animated-button/mrbb-animated-button.php:337
+#: bbvm-modules/button-group/button-module.php:179
+msgid "Button Typography"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:6
+msgid "Advanced Separator"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:7
+msgid "Advanced Separator for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:40
+msgid "Line"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:41
+msgid "Line With Radius"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:42
+msgid "Line With Icon"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:43
+msgid "Line With Photo"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:44
+msgid "Line With Content"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:110
+msgid "Select a photo"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:114
+msgid "Select a photo style"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:116
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:141
+msgid "Simple"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:123
+msgid "Enter a photo size"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:130
+msgid "Enter an icon"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:134
+msgid "Enter an icon size"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:139
+msgid "Select an icon style"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:148
+msgid "Enter an icon color"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:155
+msgid "Enter a background color"
+msgstr ""
+
+#: bbvm-modules/advanced-separator/advanced-separator-module.php:162
+msgid "Enter a radius"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:6
+#: bbvm-modules/alerts/alerts-module.php:26
+msgid "Alerts"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:7
+msgid "Alerts for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:30
+msgid "Alert Text"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:35
+msgid "Alert Style"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:37
+msgid "Primary"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:38
+msgid "Secondary"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:39
+msgid "Success"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:40
+msgid "Danger"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:41
+msgid "Warning"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:42
+msgid "Info"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:43
+msgid "Light"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:44
+msgid "Dark"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:45
+#: bbvm-modules/alerts/alerts-module.php:156
+msgid "Design Your Own"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:52
+msgid "Alert Padding"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:56
+msgid "Border Radius"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:81
+msgid "Select a Typography"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:86
+msgid "Alert Alignment"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:101
+msgid "Show an Icon?"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:113
+msgid "Select an Icon"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:118
+msgid "Select an Icon Size"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:133
+msgid "Show a Button?"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:145
+#: bbvm-modules/button/mrbb-button.php:35
+#: bbvm-modules/animated-button/mrbb-animated-button.php:40
+#: bbvm-modules/button-group/button-module.php:35
+msgid "Button Text"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:153
+msgid "Button Theme"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:155
+msgid "Inherit From Theme"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:169
+#: bbvm-modules/button/mrbb-button.php:73
+#: bbvm-modules/animated-button/mrbb-animated-button.php:72
+#: bbvm-modules/button-group/button-module.php:73
+msgid "Button Background Color"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:173
+msgid "Button Background Color on Hover"
+msgstr ""
+
+#: bbvm-modules/alerts/alerts-module.php:191
+msgid "Button Location"
+msgstr ""
+
+#: bbvm-modules/edd-download-count/edd-download-count-module.php:6
+#: bbvm-modules/edd-download-count/edd-download-count-module.php:7
+#: bbvm-modules/edd-download-count/edd-download-count-module.php:26
+msgid "EDD Download Count"
+msgstr ""
+
+#: bbvm-modules/edd-download-count/edd-download-count-module.php:8
+msgid "EDD"
+msgstr ""
+
+#: bbvm-modules/edd-download-count/edd-download-count-module.php:30
+msgid "Enter Download Text"
+msgstr ""
+
+#: bbvm-modules/edd-download-count/edd-download-count-module.php:31
+msgid "Downloads"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:7
+msgid "Add a Button"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:30
+#: bbvm-modules/animated-button/mrbb-animated-button.php:35
+#: bbvm-modules/button-group/button-module.php:30
+msgid "Unique Button ID for Styling"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:39
+#: bbvm-modules/animated-button/mrbb-animated-button.php:44
+#: bbvm-modules/button-group/button-module.php:39
+msgid "Button Link"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:43
+#: bbvm-modules/animated-button/mrbb-animated-button.php:48
+#: bbvm-modules/button-group/button-module.php:43
+msgid "Button Icon"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:53
+#: bbvm-modules/animated-button/mrbb-animated-button.php:67
+#: bbvm-modules/button-group/button-module.php:53
+msgid "Button Text Color on Hover"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:58
+#: bbvm-modules/button-group/button-module.php:58
+msgid "Button Background Type"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:60
+#: bbvm-modules/button-group/button-module.php:60
+msgid "Transparent"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:80
+#: bbvm-modules/animated-button/mrbb-animated-button.php:79
+#: bbvm-modules/button-group/button-module.php:80
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:87
+#: bbvm-modules/button-group/button-module.php:87
+msgid "Button Background Gradient"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:91
+#: bbvm-modules/button-group/button-module.php:91
+msgid "Button Background Hover Gradient"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:95
+#: bbvm-modules/button-group/button-module.php:95
+msgid "Button Style"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:98
+#: bbvm-modules/button/mrbb-button.php:113
+#: bbvm-modules/button-group/button-module.php:98
+#: bbvm-modules/button-group/button-module.php:113
+msgid "Iris"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:99
+#: bbvm-modules/button/mrbb-button.php:114
+#: bbvm-modules/button-group/button-module.php:99
+#: bbvm-modules/button-group/button-module.php:114
+msgid "Ferdinand"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:100
+#: bbvm-modules/button/mrbb-button.php:115
+#: bbvm-modules/button-group/button-module.php:100
+#: bbvm-modules/button-group/button-module.php:115
+msgid "Francisco"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:101
+#: bbvm-modules/button/mrbb-button.php:116
+#: bbvm-modules/button-group/button-module.php:101
+#: bbvm-modules/button-group/button-module.php:116
+msgid "Prospero"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:102
+#: bbvm-modules/button/mrbb-button.php:117
+#: bbvm-modules/button-group/button-module.php:102
+#: bbvm-modules/button-group/button-module.php:117
+msgid "Sebastian"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:103
+#: bbvm-modules/button/mrbb-button.php:118
+#: bbvm-modules/button-group/button-module.php:103
+#: bbvm-modules/button-group/button-module.php:118
+msgid "Stephano"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:104
+#: bbvm-modules/button/mrbb-button.php:119
+#: bbvm-modules/button-group/button-module.php:104
+#: bbvm-modules/button-group/button-module.php:119
+msgid "Trinculo"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:105
+#: bbvm-modules/button/mrbb-button.php:120
+#: bbvm-modules/button-group/button-module.php:105
+#: bbvm-modules/button-group/button-module.php:120
+msgid "Valentine"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:110
+#: bbvm-modules/button-group/button-module.php:110
+msgid "Button Style Hover"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:125
+#: bbvm-modules/animated-button/mrbb-animated-button.php:86
+#: bbvm-modules/button-group/button-module.php:125
+msgid "Button Style Border Color"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:130
+#: bbvm-modules/animated-button/mrbb-animated-button.php:91
+#: bbvm-modules/button-group/button-module.php:130
+msgid "Button Style Border Color Hover"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:145
+#: bbvm-modules/animated-button/mrbb-animated-button.php:327
+#: bbvm-modules/button-group/button-module.php:169
+msgid "Button Alignment"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:160
+#: bbvm-modules/animated-button/mrbb-animated-button.php:342
+#: bbvm-modules/button-group/button-module.php:184
+msgid "Button Margin"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:165
+#: bbvm-modules/animated-button/mrbb-animated-button.php:347
+#: bbvm-modules/button-group/button-module.php:189
+msgid "Button Radius"
+msgstr ""
+
+#: bbvm-modules/button/mrbb-button.php:170
+#: bbvm-modules/animated-button/mrbb-animated-button.php:352
+#: bbvm-modules/button-group/button-module.php:194
+msgid "Button Min Width"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:6
+msgid "Unordered List"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:7
+msgid "Add Unordered List"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:20
+msgid "Add List Item"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:26
+msgid "Add List Content"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:30
+#: bbvm-modules/unordered-list/unordered-list-module.php:52
+msgid "List Content"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:73
+msgid "Bar"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:74
+msgid "Hover Effects"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:75
+msgid "List Full Width"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:90
+msgid "List Item Icon"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:94
+msgid "List Item Icon Size"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:99
+msgid "List Item Icon Color"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:109
+#: bbvm-modules/unordered-list/unordered-list-module.php:114
+msgid "Hover Color"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:124
+msgid "Text Hover Color"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:129
+msgid "Border Bottom Color"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:134
+msgid "Border Bottom Size"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:144
+msgid "Item Size"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:149
+msgid "Bar Width"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:154
+msgid "Bar Height"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:159
+msgid "Spin on Hover?"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:168
+msgid "Top Offset"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:170
+msgid "Adjust the top offset according to your font size"
+msgstr ""
+
+#: bbvm-modules/unordered-list/unordered-list-module.php:185
+msgid "List Typography"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:6
+msgid "Animated Button"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:7
+msgid "Add a Animated Button"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:53
+msgid "Icon Location"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:55
+msgid "Before Button"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:56
+msgid "After Button"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:106
+msgid "Allow Icon Hover Animations"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:116
+msgid "Icon Hover Animation Type"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:119
+msgid "Icon Back"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:120
+msgid "Icon Forward"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:121
+msgid "Icon Down"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:122
+msgid "Icon Up"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:123
+msgid "Icon Spin"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:124
+msgid "Icon Drop"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:125
+msgid "Icon Fade"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:126
+msgid "Icon Float Away"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:127
+msgid "Icon Sink Away"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:128
+msgid "Icon Grow"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:129
+msgid "Icon Shrink"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:130
+msgid "Icon Pulse"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:131
+msgid "Icon Pulse Grow"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:132
+msgid "Icon Pulse Shrink"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:133
+msgid "Icon Push"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:134
+msgid "Icon Pop"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:135
+msgid "Icon Bounce"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:136
+msgid "Icon Rotate"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:137
+msgid "Icon Grow Rotate"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:138
+msgid "Icon Float"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:139
+msgid "Icon Sink"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:140
+msgid "Icon Bob"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:141
+msgid "Icon Hang"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:143
+msgid "Icon Wobble Vertical"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:144
+msgid "Icon Buzz"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:145
+msgid "Icon Buzz Out"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:151
+msgid "Button Animation Type"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:153
+msgid "2D Transitions"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:154
+msgid "Background Transitions"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:155
+msgid "Border Transitions"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:156
+msgid "Shadow and Glow Transitions"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:157
+msgid "Speech Buttles"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:158
+#: bbvm-modules/animated-button/mrbb-animated-button.php:305
+msgid "Curls"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:172
+msgid "2D Animation Type"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:175
+msgid "Grow"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:176
+msgid "Shrink"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:177
+#: bbvm-modules/animated-button/mrbb-animated-button.php:213
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:90
+msgid "Pulse"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:178
+msgid "Pulse Grow"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:179
+msgid "Pulse Shrink"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:180
+msgid "Push"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:183
+msgid "Bounce Out"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:184
+msgid "Rotate"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:185
+msgid "Grow Rotate"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:186
+msgid "Float"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:187
+msgid "Sink"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:188
+msgid "Bob"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:189
+msgid "Hang"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:190
+msgid "Skew"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:191
+msgid "Skew Forward"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:192
+msgid "Skew Backward"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:193
+msgid "Wobble Horizontal"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:194
+msgid "Wobble Vertical"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:195
+msgid "Wobble to Bottom Right"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:196
+msgid "Wobble to Top Right"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:197
+msgid "Wobble Top"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:198
+msgid "Wobble Bottom"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:199
+msgid "Wobble Skew"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:200
+msgid "Buzz"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:201
+msgid "Buzz Out"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:202
+msgid "Forward"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:203
+msgid "Backward"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:209
+msgid "Animation Background"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:214
+msgid "Sweep to Right"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:215
+msgid "Sweep to Left"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:216
+msgid "Sweep to Bottom"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:217
+msgid "Sweep to Top"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:218
+msgid "Bounce to Right"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:219
+msgid "Bounce to Left"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:220
+msgid "Bounce to Bottom"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:221
+msgid "Bounce to Top"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:222
+msgid "Radial Out"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:223
+msgid "Radial In"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:224
+msgid "Rectangle In"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:225
+msgid "Rectangle Out"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:226
+msgid "Shutter In Horizontal"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:227
+msgid "Shutter Out Horizontal"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:228
+msgid "Shutter In Vertical"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:229
+msgid "Shutter Out Vertical"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:235
+msgid "Transition Color"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:242
+msgid "Animation Border Type"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:245
+msgid "Border Fade"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:246
+msgid "Hollow"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:247
+msgid "Trim"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:248
+msgid "Ripple Out"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:249
+msgid "Ripple In"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:250
+msgid "Outline Out"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:251
+msgid "Outline In"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:252
+msgid "Rounded Corners"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:253
+msgid "Underline From Left"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:254
+msgid "Underline From Center"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:255
+msgid "Underline From Right"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:256
+msgid "Reveal"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:257
+msgid "Underline Reveal"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:258
+msgid "Overline Reveal"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:259
+msgid "Overline From Left"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:260
+msgid "Overline From Center"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:261
+msgid "Overline From Right"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:267
+msgid "Shadow and Glow"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:270
+msgid "Shadow"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:271
+msgid "Grow Shadow"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:272
+msgid "Float Shadow"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:273
+msgid "Glow"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:274
+msgid "Shadow Radial"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:275
+msgid "Box Shadow Outset"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:276
+msgid "Box Shadow Inset"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:282
+msgid "Shadow and Glow Color"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:289
+msgid "Speech Bubbles"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:292
+msgid "Bubble Top"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:293
+msgid "Bubble Right"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:294
+msgid "Bubble Bottom"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:295
+msgid "Bubble Left"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:296
+msgid "Bubble Float Top"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:297
+msgid "Bubble Float Right"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:298
+msgid "Bubble Float Bottom"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:299
+msgid "Bubble Float Left"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:308
+msgid "Curl Top Left"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:309
+msgid "Curl Top Right"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:310
+msgid "Curl Bottom Right"
+msgstr ""
+
+#: bbvm-modules/animated-button/mrbb-animated-button.php:311
+msgid "Curl Bottom Left"
+msgstr ""
+
+#: bbvm-modules/syntax-highlighter-native/syntax-highlighter-native-module.php:38
+msgid "Enter Your Code Type"
+msgstr ""
+
+#: bbvm-modules/syntax-highlighter-native/syntax-highlighter-native-module.php:195
+msgid "You will need to save the module and refresh Beaver Builder to see the changes"
+msgstr ""
+
+#: bbvm-modules/syntax-highlighter-native/syntax-highlighter-native-module.php:199
+msgid "Enter Your Theme Type"
+msgstr ""
+
+#: bbvm-modules/syntax-highlighter-native/syntax-highlighter-native-module.php:200
+msgid "You may need to save/publish and refresh to see the theme in action"
+msgstr ""
+
+#: bbvm-modules/syntax-highlighter-native/syntax-highlighter-native-module.php:293
+msgid "You will need to save the module and refresh Beaver Builder to see the changes. Only one theme can be used per page. Takes from the top-most module."
+msgstr ""
+
+#: bbvm-modules/syntax-highlighter-native/syntax-highlighter-native-module.php:297
+msgid "Enter your code here."
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:6
+msgid "Animated Headlines"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:7
+msgid "Animated Headlines for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:32
+msgid "Headlines"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:36
+msgid "Headline Text"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:40
+msgid "Headline Tag"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:53
+msgid "Headline Padding"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:58
+msgid "Headline Margin"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:63
+msgid "Headline Text Color"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:68
+msgid "Headline Typography"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:83
+msgid "Headline Animation Type"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:88
+msgid "Bounce"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:91
+msgid "Rubber Band"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:92
+msgid "Shake"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:93
+msgid "Swing"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:94
+msgid "Tada"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:95
+msgid "Wobble"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:96
+msgid "Jello"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:97
+msgid "Heartbeat"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:108
+msgid "Starting Color"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:113
+msgid "Ending Color"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:118
+msgid "Gradient Color Beginning"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:123
+msgid "Gradient Color End"
+msgstr ""
+
+#: bbvm-modules/animated-headlines/animated-headlines-module.php:128
+msgid "Animation Duration in Seconds"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:6
+msgid "Restaurant Menu Item"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:7
+msgid "Add menu item for a restaurant"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-item/restaurant-menu-item.php:30
+msgid "Add Restaurant Menu Item"
+msgstr ""
+
+#: bbvm-modules/copyright/copyright-module.php:7
+msgid "Copyright for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/copyright/copyright-module.php:36
+msgid "Enter your site name"
+msgstr ""
+
+#: bbvm-modules/copyright/copyright-module.php:41
+msgid "Enter your copyright text"
+msgstr ""
+
+#: bbvm-modules/copyright/copyright-module.php:46
+msgid "Enter your start year (Leave blank for no start year)"
+msgstr ""
+
+#: bbvm-modules/copyright/copyright-module.php:51
+msgid "Enter copyright symbol"
+msgstr ""
+
+#: bbvm-modules/simple-separator/simple-separator.php:6
+msgid "Simple Separator"
+msgstr ""
+
+#: bbvm-modules/simple-separator/simple-separator.php:7
+msgid "Simple Separator for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/simple-separator/simple-separator.php:30
+#: bbvm-modules/simple-separator/simple-separator.php:49
+msgid "Height of Separator"
+msgstr ""
+
+#: bbvm-modules/simple-separator/simple-separator.php:43
+msgid "Width of Separator"
+msgstr ""
+
+#: bbvm-modules/simple-separator/simple-separator.php:58
+msgid "Solid"
+msgstr ""
+
+#: bbvm-modules/simple-separator/simple-separator.php:59
+msgid "Dashed"
+msgstr ""
+
+#: bbvm-modules/simple-separator/simple-separator.php:60
+msgid "Dotted"
+msgstr ""
+
+#: bbvm-modules/simple-separator/simple-separator.php:61
+msgid "Double"
+msgstr ""
+
+#: bbvm-modules/woocommerce-add-to-cart/woocommerce-add-to-cart.php:6
+#: bbvm-modules/woocommerce-add-to-cart/woocommerce-add-to-cart.php:7
+msgid "Add Cart"
+msgstr ""
+
+#: bbvm-modules/woocommerce-add-to-cart/woocommerce-add-to-cart.php:30
+msgid "Add to Cart Text"
+msgstr ""
+
+#: bbvm-modules/woocommerce-add-to-cart/woocommerce-add-to-cart.php:35
+msgid "Enter Your Cart Icon"
+msgstr ""
+
+#: bbvm-modules/woocommerce-add-to-cart/woocommerce-add-to-cart.php:40
+msgid "Enter Your Icon Location"
+msgstr ""
+
+#: bbvm-modules/simple-spacer/simple-spacer-module.php:6
+msgid "Simple Spacer"
+msgstr ""
+
+#: bbvm-modules/simple-spacer/simple-spacer-module.php:7
+msgid "Simple Spacer for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/simple-spacer/simple-spacer-module.php:26
+msgid "Spacer"
+msgstr ""
+
+#: bbvm-modules/simple-spacer/simple-spacer-module.php:30
+msgid "Height of Spacer"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/includes/frontend.php:23
+msgctxt "in {category/tag name}"
+msgid "In “%s”"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/includes/frontend.php:46
+msgctxt "in {category/tag name}"
+msgid "In \"%s\""
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/includes/frontend.php:67
+msgid "With 1 comment"
+msgid_plural "With %s comments"
+msgstr[0] ""
+
+#: bbvm-modules/jetpack-related-posts/includes/frontend.php:72
+msgid "Similar post"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:6
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:26
+msgid "Jetpack Related Posts"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:7
+msgid "Jetpack Related Posts for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:30
+msgid "Enter Related Post Title"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:31
+msgid "Related Posts"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:35
+msgid "Number of Items"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:45
+msgid "Related Posts Layout"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:54
+msgid "Show Title?"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:66
+msgid "Show Thumbnails?"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:78
+msgid "Fallback Image"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:79
+msgid "Recommended image size is 320x200"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:83
+msgid "Show Date?"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:92
+msgid "Show Context?"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:111
+msgid "Heading Color"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:131
+msgid "Select a Margin"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:158
+msgid "Date Typography"
+msgstr ""
+
+#: bbvm-modules/jetpack-related-posts/jetpack-related-posts-module.php:162
+msgid "Context Typography"
+msgstr ""
+
+#: bbvm-modules/gist/gist-module.php:6
+#: bbvm-modules/gist/gist-module.php:26
+msgid "Gist"
+msgstr ""
+
+#: bbvm-modules/gist/gist-module.php:7
+msgid "Gists for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/gist/gist-module.php:30
+msgid "Enter Your Gist URL Here"
+msgstr ""
+
+#: bbvm-modules/gist/gist-module.php:35
+msgid "Gist Caption"
+msgstr ""
+
+#: bbvm-modules/gist/gist-module.php:40
+msgid "Show Meta?"
+msgstr ""
+
+#: bbvm-modules/gist/gist-module.php:77
+msgid "Select a Border Radius"
+msgstr ""
+
+#: bbvm-modules/gist/gist-module.php:78
+msgid "Useful if you have selected a padding and background color"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:6
+#: bbvm-modules/instagram/instagram-module.php:71
+msgid "Instagram"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:7
+msgid "Add an Instagram Feed"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:38
+msgid "Likes:"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:38
+#: bbvm-modules/instagram/includes/frontend.php:56
+msgid "Comments:"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:74
+msgid "Instagram Settings"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:78
+msgid "Number of Instagram Photos to Show"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:83
+msgid "Display Options"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:86
+msgid "Masonry"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:92
+msgid "You may need to save and refresh to see the new layout."
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:96
+msgid "Number of Card Columns"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:107
+msgid "Show Likes and Comments?"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:116
+msgid "Show Caption?"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:136
+msgid "Card Text Color"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:142
+msgid "Max Card Width"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:145
+msgid "Can override your column width settings"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:155
+msgid "Typography Settings"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:159
+msgid "Likes and Comments Typography"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:175
+msgid "Button Settings"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:179
+msgid "Show Load More Button"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:185
+msgid "Showing Load More is not recommended for the Masonry layout"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:189
+msgid "Show Follow Us Button"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:198
+msgid "Show More Background Color"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:204
+#: bbvm-modules/instagram/instagram-module.php:221
+msgid "Show More Text Color"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:210
+msgid "Load More Text"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:211
+msgid "Load More..."
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:215
+msgid "Follow Background Color"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:227
+msgid "Follow Text"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:228
+msgid "Follow on Instagram"
+msgstr ""
+
+#: bbvm-modules/instagram/instagram-module.php:232
+msgid "Follow Icon"
+msgstr ""
+
+#: bbvm-modules/instagram/includes/frontend.php:7
+msgid "Please connect to Instagram in the plugin settings."
+msgstr ""
+
+#: bbvm-modules/instagram/includes/frontend.php:7
+msgid "Connect"
+msgstr ""
+
+#: bbvm-modules/soliloquy/soliloquy-module.php:6
+msgid "Soliloquy"
+msgstr ""
+
+#: bbvm-modules/soliloquy/soliloquy-module.php:7
+msgid "Soliloquy for Beaver Builder"
+msgstr ""
+
+#: bbvm-modules/soliloquy/soliloquy-module.php:22
+#: bbvm-modules/soliloquy/soliloquy-module.php:38
+msgid "Select a slider"
+msgstr ""
+
+#: bbvm-modules/soliloquy/soliloquy-module.php:34
+msgid "Slider Select"
+msgstr ""
+
+#: bbvm-modules/soliloquy/soliloquy-module.php:49
+msgid "General Options"
+msgstr ""
+
+#: bbvm-modules/soliloquy/soliloquy-module.php:53
+msgid "Show arrows always"
+msgstr ""
+
+#: bbvm-modules/soliloquy/soliloquy-module.php:62
+msgid "Background color of the arrows"
+msgstr ""
+
+#: bbvm-modules/soliloquy/soliloquy-module.php:67
+msgid "Max height of slider"
+msgstr ""
+
+#: bbvm-modules/soliloquy/soliloquy-module.php:72
+msgid "Max width of slider"
+msgstr ""
+
+#: bbvm-modules/soliloquy/soliloquy-module.php:77
+msgid "Hide pager?"
+msgstr ""
+
+#: bbvm-modules/soliloquy/soliloquy-module.php:86
+msgid "Hide caption?"
+msgstr ""
+
+#: bbvm-modules/soliloquy/soliloquy-module.php:95
+msgid "Background color of the caption"
+msgstr ""
+
+#: bbvm-modules/soliloquy/soliloquy-module.php:101
+msgid "Text color of the caption"
+msgstr ""
+
+#: bbvm-modules/soliloquy/soliloquy-module.php:106
+msgid "Caption typography"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:6
+msgid "Photo Overlay Advanced"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:7
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:7
+msgid "Add an overlay to a photo"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:26
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:26
+msgid "Overlay Photo"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:30
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:30
+msgid "Photo to be Overlayed"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:35
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:35
+msgid "Overlay Link"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:39
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:39
+msgid "Overlay Text"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:40
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:40
+msgid "Text to overlay photo"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:41
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:42
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:41
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:42
+msgid "Text to overlay the photo."
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:47
+msgid "Overlay behavior"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:49
+msgid "Overlay on initial display"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:50
+msgid "Overlay on hover"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:58
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:61
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:54
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:57
+msgid "Overlay Style"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:65
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:61
+msgid "Select an Overlay Type"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:68
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:64
+msgid "Select an overlay type"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:70
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:66
+msgid "Full Overlay"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:85
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:81
+msgid "Top"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:86
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:82
+msgid "Middle"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:92
+msgid "Select a max width for the image"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:93
+msgid "Select a max width if using the overlay or middle positions."
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:98
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:88
+msgid "Select an animation"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:100
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:90
+msgid "No animation"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:101
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:91
+msgid "Fade in"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:102
+msgid "Slide up"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:103
+msgid "Slide down"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:104
+msgid "Slide left"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:105
+msgid "Slide right"
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:107
+msgid "For middle and full overlays, only fade will be able to be applied."
+msgstr ""
+
+#: bbvm-modules/photo-overlay-advanced/photo-overlay-advanced-module.php:111
+msgid "Animation duraction in seconds"
+msgstr ""
+
+#: bbvm-modules/photo-overlay/photo-overlay-module.php:6
+msgid "Photo Overlay"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:7
+msgid "Add menu items for a restaurant"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:134
+msgid "Display Item Photo"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:150
+msgid "Menu Image Type"
+msgstr ""
+
+#: bbvm-modules/restaurant-menu-items/restaurant-menu-items.php:159
+msgid "Popup Image in Lightbox"
+msgstr ""
+
+#: bbvm-modules/button-group/button-module.php:6
+msgid "Button Group"
+msgstr ""
+
+#: bbvm-modules/button-group/button-module.php:7
+msgid "Add a Button Group"
+msgstr ""
+
+#: bbvm-modules/button-group/button-module.php:20
+msgid "Add Button"
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:60
+msgid "Please enter a license to receive automatic updates."
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:60
+msgid "Enter License."
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:75
+msgid "Vapor"
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:112
+#: includes/bbvm-beaverbuilder-admin.php:160
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:126
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:134
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:139
+msgid "Invalid license."
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:145
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:150
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:155
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:180
+msgid "Enter Your License"
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:185
+msgid "Please enter your licence key."
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:187
+msgid "Your license is valid and you will now receive update notifications."
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:198
+#: includes/bbvm-beaverbuilder-admin.php:218
+msgid "Connect to Instagram"
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:230
+msgid "Connected"
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:230
+msgid "Disconnect"
+msgstr ""
+
+#: includes/bbvm-beaverbuilder-admin.php:243
+msgid "Save Options"
+msgstr ""
+
+#: includes/vegas-row-settings.php:57
+#: includes/vegas-row-settings.php:62
+msgid "Vegas"
+msgstr ""
+
+#: includes/vegas-row-settings.php:66
+msgid "Select photos"
+msgstr ""
