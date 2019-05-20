@@ -43,6 +43,12 @@ class BBVapor_Modules {
 			require_once 'bbvm-modules/photo-overlay/bbvm-photo-overlay-module.php';
 			new BBVapor_Photo_Overlay_Module();
 
+			// Gravity Forms module
+			if ( class_exists( 'GFAPI' ) ) {
+				require_once 'bbvm-modules/gravityforms/bbvm-gravityforms-module.php';
+				new BBVapor_Gravityforms_Module();
+			}
+
 			// Card Module
 			require_once 'bbvm-modules/card/bbvm-card-module.php';
 			new BBVapor_Card_Module();
@@ -95,10 +101,6 @@ class BBVapor_Modules {
 			// Vegas Slideshow
 			require_once 'bbvm-modules/vegas-slideshow/bbvm-vegas-slideshow-module.php';
 			new BBVapor_Vegas_Slideshow_Module();
-
-			// Instagram
-			require_once 'bbvm-modules/instagram/bbvm-instagram-module.php';
-			new BBVapor_Instagram_Module();
 
 			add_shortcode( 'bbvm_bb_copyright', array( $this, 'bbvm_beaver_builder_copyright' ) );
 		}
