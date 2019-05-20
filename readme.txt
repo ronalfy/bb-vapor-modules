@@ -23,7 +23,7 @@ A growing list of Beaver Builder modules. The free version contains the followin
 * Copyright
 * Gists
 * Gravatars
-* Instagram feed
+* Gravity Forms Styler
 * Photo Overlay
 * Social Media Icons
 * Vegas Full-width Slideshow
