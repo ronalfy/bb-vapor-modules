@@ -79,21 +79,6 @@ class BBVapor_BeaverBuilder_Admin {
 	 * @see register_sub_menu
 	 */
 	public function admin_page() {
-		if( isset( $_POST['disconnect-instagram'] ) ) {
-			check_admin_referer( 'save_bbvm_beaver_builder_options' );
-			delete_option( 'bbvm-modules-instagram' );
-		}
-		if( isset( $_POST['clear-cache-instagram'] ) ) {
-			check_admin_referer( 'save_bbvm_beaver_builder_options' );
-			$options = get_option( 'bbvm-modules-instagram' );
-			if ( isset( $options[ 'last_cached' ] ) ) {
-				unset( $options[ 'last_cached' ] );
-				update_option( 'bbvm-modules-instagram', $options );
-			}
-			?>
-			<div class="notice notice-success"><p><?php esc_html_e( 'Cache cleared!', 'bb-vapor-modules' ); ?></p></div>
-			<?php
-		}
 		?>
 		<div class="wrap">
 			<form action="<?php echo esc_url( add_query_arg( array( 'page' => 'bb-vapor-modules' ), admin_url( 'options-general.php' ) ) ); ?>" method="POST">
@@ -101,46 +86,6 @@ class BBVapor_BeaverBuilder_Admin {
 				<h2><?php esc_html_e( 'Vapor Modules for Beaver Builder', 'breadcrumbs-for-beaver-builder' ); ?></h2>
 				<table class="form-table">
 					<tbody>
-						<tr>
-							<th scope="row"><label for="bbvm-instagram"><?php esc_html_e( 'Connect to Instagram', 'bb-vapor-modules' ); ?></label>
-							</th>
-							<td>
-							<?php
-							$instagram = get_option( 'bbvm-modules-instagram', array() );
-							if( ! isset( $instagram['token'] ) ) {
-								$instagram['token'] = isset( $_GET['token'] ) ? sanitize_text_field( $_GET['token'] ) : '';
-							}
-							if( !isset( $instagram['token'] ) || empty( $instagram['token'] ) ) {
-								$instagram_options = array(
-									'hash' => wp_generate_password(12)
-								);
-								update_option( 'bbvm-modules-instagram', $instagram_options );
-								$instagram = get_option( 'bbvm-modules-instagram', array() );
-								$siteRedirectLink = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" . '?hash=' . sanitize_text_field( $instagram['hash'] );
-
-								$state = base64_encode( $siteRedirectLink );
-								$redirect_url = 'https://mediaron.com/instagram/index.php';
-								$instagram_url = sprintf( 'https://api.instagram.com/oauth/authorize/?client_id=%s&redirect_uri=%s&state=%s&response_type=code', '8dba23ca2c1c45509c32343db0d37a96', $redirect_url, $state );
-								?>
-								<a class="button button-primary" href="<?php echo esc_url_raw( $instagram_url ); ?>"><?php _e( 'Connect to Instagram', 'bb-vapor-modules' ); ?></a>
-								<?php
-							} else {
-								$instagram_token = isset( $_GET['token'] ) ? sanitize_text_field( $_GET['token'] ) : $instagram['token'];
-								$user_id = isset( $_GET['user_id'] ) ? sanitize_text_field( $_GET['user_id'] ) : $instagram['user_id'];
-								update_option( 'bbvm-modules-instagram', array(
-									'token'   => $instagram_token,
-									'user_id' => $user_id,
-									'last_cached' => time()
-								) );
-								?>
-								<div class="instagram-status">
-								<button class="button button-primary"><?php _e( 'Connected', 'bb-vapor-modules' ); ?></button>&nbsp;<input type="submit" class="button button-secondary delete" value="<?php echo esc_html__( 'Disconnect', 'bb-vapor-modules' ); ?>" name="disconnect-instagram" />&nbsp;<input type="submit" class="button button-secondary" value="<?php echo esc_html__( 'Clear Cache', 'bb-vapor-modules' ); ?>" name="clear-cache-instagram" />
-								</div>
-								<?php
-							}
-							?>
-							</td>
-						</tr>
 						<tr>
 							<th scope="row"><label for="bbvm-pro"><?php esc_html_e( 'Upgrade', 'bb-vapor-modules' ); ?></label>
 							</th>

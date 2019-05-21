@@ -51,7 +51,7 @@ Where it makes sense, I will include modules in the free version. The <a href="h
 == Screenshots ==
 
 1. Photo Overlay Module
-2. Instagram Module
+2. Gravity Forms Module
 3. Vegas Full-width Slideshow
 4. Separators
 5. Social Media Icons
