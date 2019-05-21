@@ -15,20 +15,20 @@ A growing list of Beaver Builder modules.
 
 A growing list of Beaver Builder modules. The free version contains the following modules:
 
-* Alerts
-* Animated Button
-* Breadcrumbs
-* Button
-* Card
-* Copyright
-* Gists
-* Gravatars
-* Gravity Forms Styler
-* Photo Overlay
-* Social Media Icons
-* Vegas Full-width Slideshow
-* Syntax Highlighter
-* Separators and Spacers
+* <a href="https://bbvapormodules.com/modules/alerts/">Alerts</a>
+* <a href="https://bbvapormodules.com/modules/animated-buttons/">Animated Button</a>
+* <a href="https://bbvapormodules.com/modules/breadcrumbs/">Breadcrumbs</a>
+* <a href="https://bbvapormodules.com/modules/buttons/">Button</a>
+* <a href="https://bbvapormodules.com/modules/card/">Card</a>
+* <a href="https://bbvapormodules.com/modules/copyright/">Copyright</a>
+* <a href="https://bbvapormodules.com/modules/github-gists/">Gists</a>
+* <a href="https://bbvapormodules.com/modules/gravatars/">Gravatars</a>
+* <a href="https://bbvapormodules.com/modules/gravity-forms/">Gravity Forms Styler</a>
+* <a href="https://bbvapormodules.com/modules/photo-overlay/">Photo Overlay</a>
+* <a href="https://bbvapormodules.com/modules/social-icons/">Social Media Icons</a>
+* <a href="https://bbvapormodules.com/modules/vegas-background-slider/">Vegas Full-width Slideshow</a>
+* <a href="https://bbvapormodules.com/modules/syntax-highlighting/">Syntax Highlighter</a>
+* <a href="https://bbvapormodules.com/modules/separators-and-a-spacer/">Separators and Spacers</a>
 
 > <a href="https://bbvapormodules.com">Upgrade to Pro for more Beaver Builder Modules</a>
 
@@ -50,14 +50,12 @@ Where it makes sense, I will include modules in the free version. The <a href="h
 
 == Screenshots ==
 
-1. Photo Overlay Module
-2. Gravity Forms Module
-3. Vegas Full-width Slideshow
+1. Alerts Module
+2. Photo Overlay Module
+3. Gravity Forms Module
 4. Separators
 5. Social Media Icons
-6. Alerts
-7. Admin Panel
-8. Front End Options
+6. Vegas Full-width Slideshow
 
 == Changelog ==
 
