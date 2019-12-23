@@ -2,9 +2,9 @@
 Tags: beaver builder, beaver builder modules, beaverbuilder
 Contributors: ronalfy
 Requires at least: 4.9
-Tested up to: 5.2
+Tested up to: 5.3
 Requires PHP: 5.6
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https:/mediaron.com/give
@@ -24,6 +24,7 @@ A growing list of Beaver Builder modules. The free version contains the followin
 * <a href="https://bbvapormodules.com/modules/github-gists/">Gists</a>
 * <a href="https://bbvapormodules.com/modules/gravatars/">Gravatars</a>
 * <a href="https://bbvapormodules.com/modules/gravity-forms/">Gravity Forms Styler</a>
+* <a href="https://bbvapormodules.com/modules/photo-module/">Photo Module</a>
 * <a href="https://bbvapormodules.com/modules/photo-overlay/">Photo Overlay</a>
 * <a href="https://bbvapormodules.com/modules/social-icons/">Social Media Icons</a>
 * <a href="https://bbvapormodules.com/modules/vegas-background-slider/">Vegas Full-width Slideshow</a>
@@ -59,11 +60,15 @@ Where it makes sense, I will include modules in the free version. The <a href="h
 
 == Changelog ==
 
+= 1.1.0 =
+* Released 2019-12-23
+* Added Photo module.
+
 = 1.0.0 =
 * Released 2019-05-20
 * Initial release
 
  == Upgrade Notice ==
 
-= 1.0.0 =
-Initial release.
+= 1.1.0 =
+Added Photo module.
