@@ -90,7 +90,7 @@ class BBVapor_BeaverBuilder_Admin {
 							<th scope="row"><label for="bbvm-pro"><?php esc_html_e( 'Upgrade', 'bb-vapor-modules' ); ?></label>
 							</th>
 							<td>
-								<a class="button button-secondary" href="https://bbvapormodules.com" target="_blank"><?php esc_html_e( 'Upgrade to Pro for more modules', 'bb-vapor-modules' ); ?></a>
+								<a class="button button-secondary" href="https://bbvapormodules.com" target="_blank"><?php esc_html_e( 'Upgrade to Pro for more modules', 'bb-vapor-modules' ); ?></a>&nbsp;<a class="button button-secondary" href="https://bbvapormodules.com/modules" target="_blank"><?php esc_html_e( 'View all Available Modules', 'bb-vapor-modules' ); ?></a>
 							</td>
 						</tr>
 					</tbody>

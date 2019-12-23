@@ -3,7 +3,7 @@
  * Plugin Name: BB Vapor Modules
  * Plugin URI: https://bbvapormodules.com
  * Description: A selection of modules for Beaver Builder.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Ronald Huereca
  * Author URI: https://mediaron.com
  * Requires at least: 5.0
@@ -15,7 +15,7 @@ define( 'BBVAPOR_PLUGIN_FREE', true );
 define( 'BBVAPOR_PLUGIN_NAME', 'BB Vapor Modules' );
 define( 'BBVAPOR_BEAVER_BUILDER_DIR', plugin_dir_path( __FILE__ ) );
 define( 'BBVAPOR_BEAVER_BUILDER_URL', plugins_url( '/', __FILE__ ) );
-define( 'BBVAPOR_BEAVER_BUILDER_VERSION', '1.0.0' );
+define( 'BBVAPOR_BEAVER_BUILDER_VERSION', '1.1.0' );
 define( 'BBVAPOR_BEAVER_BUILDER_SLUG', plugin_basename(__FILE__) );
 
 class BBVapor_Modules {
@@ -42,6 +42,10 @@ class BBVapor_Modules {
 			// Photo overlay module
 			require_once 'bbvm-modules/photo-overlay/bbvm-photo-overlay-module.php';
 			new BBVapor_Photo_Overlay_Module();
+
+			// Photo module.
+			require_once 'bbvm-modules/photo/bbvm-photo.php';
+			new BBVapor_Photo();
 
 			// Gravity Forms module
 			if ( class_exists( 'GFAPI' ) ) {
@@ -106,6 +110,55 @@ class BBVapor_Modules {
 		}
 
 
+	}
+
+	/**
+	 * Get a color based on module settings.
+	 *
+	 * @param string $color The color (could be alpha, six digits, or a string such as inherit).
+	 *
+	 * @return string The updated color.
+	 */
+	public static function get_color( $color ) {
+		if ( empty( $color ) ) {
+			return 'inherit';
+		}
+		if ( 6 === strlen( $color ) ) {
+			return '#' . $color;
+		} else {
+			return $color;
+		}
+		return $color;
+	}
+
+	/**
+	 * Get an opening anchor based on link settings
+	 *
+	 * @param object $settings The Beaver Builder module settings object.
+	 * @param string $name     The setting name to check for.
+	 * @param string $class    The class to insert into an anchor.
+	 *
+	 * @return string Anchor HTML markup
+	 */
+	public static function get_starting_anchor( $settings, $name, $class = '' ) {
+		$return = sprintf(
+			'<a href="%s" class="%s"',
+			esc_url( $settings->{$name} ),
+			esc_attr( $class )
+		);
+
+		$no_follow = $name . '_nofollow';
+		if ( isset( $settings->{$no_follow} ) && 'yes' === $settings->{$no_follow} ) {
+			$return .= ' rel="nofollow"';
+		}
+
+		// Target.
+		$target = $name . '_target';
+		if ( isset( $settings->{$target} ) && ! empty( $settings->{$target} ) ) {
+			$return .= sprintf( ' target="%s"', esc_attr( $settings->{$target} ) );
+		}
+		$return .= '>';
+		return $return;
 	}
 
 	public function bbvm_beaver_builder_ajax_url() {
