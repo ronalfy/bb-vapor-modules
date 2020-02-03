@@ -3,7 +3,7 @@
  * Plugin Name: BB Vapor Modules
  * Plugin URI: https://bbvapormodules.com
  * Description: A selection of modules for Beaver Builder.
- * Version: 1.1.0
+ * Version: 2.0.0
  * Author: Ronald Huereca
  * Author URI: https://mediaron.com
  * Requires at least: 5.0
@@ -15,7 +15,7 @@ define( 'BBVAPOR_PLUGIN_FREE', true );
 define( 'BBVAPOR_PLUGIN_NAME', 'BB Vapor Modules' );
 define( 'BBVAPOR_BEAVER_BUILDER_DIR', plugin_dir_path( __FILE__ ) );
 define( 'BBVAPOR_BEAVER_BUILDER_URL', plugins_url( '/', __FILE__ ) );
-define( 'BBVAPOR_BEAVER_BUILDER_VERSION', '1.1.0' );
+define( 'BBVAPOR_BEAVER_BUILDER_VERSION', '2.0.0' );
 define( 'BBVAPOR_BEAVER_BUILDER_SLUG', plugin_basename(__FILE__) );
 
 class BBVapor_Modules {

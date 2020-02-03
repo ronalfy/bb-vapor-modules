@@ -4,7 +4,7 @@ Contributors: ronalfy
 Requires at least: 4.9
 Tested up to: 5.3
 Requires PHP: 5.6
-Stable tag: 1.1.0
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https:/mediaron.com/give
@@ -24,12 +24,14 @@ A growing list of Beaver Builder modules. The free version contains the followin
 * <a href="https://bbvapormodules.com/modules/github-gists/">Gists</a>
 * <a href="https://bbvapormodules.com/modules/gravatars/">Gravatars</a>
 * <a href="https://bbvapormodules.com/modules/gravity-forms/">Gravity Forms Styler</a>
+* <a href="https://bbvapormodules.com/modules/learndash-modules-for-beaver-builder/">LearnDash modules (16 modules)</a>
 * <a href="https://bbvapormodules.com/modules/photo-module/">Photo Module</a>
 * <a href="https://bbvapormodules.com/modules/photo-overlay/">Photo Overlay</a>
 * <a href="https://bbvapormodules.com/modules/social-icons/">Social Media Icons</a>
 * <a href="https://bbvapormodules.com/modules/vegas-background-slider/">Vegas Full-width Slideshow</a>
 * <a href="https://bbvapormodules.com/modules/syntax-highlighting/">Syntax Highlighter</a>
 * <a href="https://bbvapormodules.com/modules/separators-and-a-spacer/">Separators and Spacers</a>
+* <a href="https://bbvapormodules.com/modules/plugin-info-card/">WP Plugin Info Card</a>
 
 > <a href="https://bbvapormodules.com">Upgrade to Pro for more Beaver Builder Modules</a>
 
@@ -60,6 +62,11 @@ Where it makes sense, I will include modules in the free version. The <a href="h
 
 == Changelog ==
 
+= 2.0.0 =
+* Released 2020-02-03
+* Added 16 LearnDash modules.
+* Added WP Plugin Info Card module.
+
 = 1.1.0 =
 * Released 2019-12-23
 * Added Photo module.
@@ -68,7 +75,10 @@ Where it makes sense, I will include modules in the free version. The <a href="h
 * Released 2019-05-20
 * Initial release
 
- == Upgrade Notice ==
+== Upgrade Notice ==
+
+= 2.0.0 =
+Added 16 LearnDash modules. Added WP Plugin Info Card module.
 
 = 1.1.0 =
 Added Photo module.
